@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Pololu713_breakout)(type KiCad)(uri "${KIPRJMOD}/Libs and footprints/Pololu713_breakout.pretty")(options "")(descr ""))
+  (lib (name teensy)(type KiCad)(uri "${KIPRJMOD}/Libs and footprints/teensy.pretty")(options "")(descr ""))
+)

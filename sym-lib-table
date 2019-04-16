@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name teensy)(type Legacy)(uri "C:/Users/Joaquín/repositories/Hitodama-valves-board/Libs and footprints/teensy.lib")(options "")(descr ""))
+  (lib (name "Hitodama custom parts")(type Legacy)(uri "C:/Users/Joaquín/repositories/Hitodama-valves-board/Libs and footprints/Hitodama custom parts.lib")(options "")(descr ""))
+)
