@@ -698,10 +698,10 @@ Wire Wire Line
 	5350 5050 6000 5050
 Connection ~ 5350 5050
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H1
 U 1 1 5CB701BB
 P 6000 6500
-F 0 "H?" H 6100 6546 50  0000 L CNN
+F 0 "H1" H 6100 6546 50  0000 L CNN
 F 1 "MountingHole" H 6100 6455 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6000 6500 50  0001 C CNN
 F 3 "~" H 6000 6500 50  0001 C CNN
@@ -709,10 +709,10 @@ F 3 "~" H 6000 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H2
 U 1 1 5CB704E4
 P 6000 6700
-F 0 "H?" H 6100 6746 50  0000 L CNN
+F 0 "H2" H 6100 6746 50  0000 L CNN
 F 1 "MountingHole" H 6100 6655 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6000 6700 50  0001 C CNN
 F 3 "~" H 6000 6700 50  0001 C CNN
@@ -720,10 +720,10 @@ F 3 "~" H 6000 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H3
 U 1 1 5CB70540
 P 6000 6900
-F 0 "H?" H 6100 6946 50  0000 L CNN
+F 0 "H3" H 6100 6946 50  0000 L CNN
 F 1 "MountingHole" H 6100 6855 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6000 6900 50  0001 C CNN
 F 3 "~" H 6000 6900 50  0001 C CNN
@@ -731,14 +731,36 @@ F 3 "~" H 6000 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H4
 U 1 1 5CB70598
 P 6000 7100
-F 0 "H?" H 6100 7146 50  0000 L CNN
+F 0 "H4" H 6100 7146 50  0000 L CNN
 F 1 "MountingHole" H 6100 7055 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6000 7100 50  0001 C CNN
 F 3 "~" H 6000 7100 50  0001 C CNN
 	1    6000 7100
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5CB626E2
+P 6200 6200
+F 0 "J?" H 6227 6226 50  0000 L CNN
+F 1 "+12v_SUPPLY" H 6350 6200 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 6200 6200 50  0001 C CNN
+F 3 "~" H 6200 6200 50  0001 C CNN
+	1    6200 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5CB628B6
+P 6000 6200
+F 0 "#PWR?" H 6000 6050 50  0001 C CNN
+F 1 "+12V" V 6015 6328 50  0000 L CNN
+F 2 "" H 6000 6200 50  0001 C CNN
+F 3 "" H 6000 6200 50  0001 C CNN
+	1    6000 6200
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
