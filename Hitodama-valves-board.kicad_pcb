@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0.1)-4")
+(kicad_pcb (version 20171130) (host pcbnew 5.1.1-8be2ce7~80~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -35,14 +35,12 @@
 
   (setup
     (last_trace_width 0.4)
-    (trace_clearance 0.2)
+    (trace_clearance 0.3)
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.2)
-    (segment_width 0.2)
-    (edge_width 0.15)
-    (via_size 1.2)
-    (via_drill 0.5)
+    (via_size 1.4)
+    (via_drill 0.8)
     (via_min_size 0.4)
     (via_min_drill 0.3)
     (uvia_size 0.3)
@@ -50,6 +48,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.2)
     (uvia_min_drill 0.1)
+    (edge_width 0.15)
+    (segment_width 0.2)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.15)
@@ -120,12 +120,14 @@
   (net 27 "Net-(J10-Pad1)")
 
   (net_class Default "This is the default net class."
-    (clearance 0.2)
+    (clearance 0.3)
     (trace_width 0.4)
-    (via_dia 1.2)
-    (via_drill 0.5)
+    (via_dia 1.4)
+    (via_drill 0.8)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+    (diff_pair_width 0.3)
+    (diff_pair_gap 0.3)
     (add_net /stby)
     (add_net GND)
     (add_net "Net-(D1-Pad1)")
@@ -157,10 +159,12 @@
   (net_class powers ""
     (clearance 0.3)
     (trace_width 0.7)
-    (via_dia 0.8)
-    (via_drill 0.4)
+    (via_dia 1.4)
+    (via_drill 0.8)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+    (diff_pair_width 0.3)
+    (diff_pair_gap 0.3)
     (add_net +12V)
   )
 
