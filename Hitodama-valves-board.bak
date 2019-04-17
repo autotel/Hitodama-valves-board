@@ -509,7 +509,7 @@ U 1 1 5CB86D71
 P 5050 5200
 F 0 "JP1" H 5300 5100 50  0000 C CNN
 F 1 "(A,B)IN 1" H 5050 5100 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 5050 5200 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 5050 5200 50  0001 C CNN
 F 3 "~" H 5050 5200 50  0001 C CNN
 	1    5050 5200
 	-1   0    0    1   
@@ -700,52 +700,52 @@ Connection ~ 5350 5050
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5CB701BB
-P 6000 6500
-F 0 "H1" H 6100 6546 50  0000 L CNN
-F 1 "MountingHole" H 6100 6455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6000 6500 50  0001 C CNN
-F 3 "~" H 6000 6500 50  0001 C CNN
-	1    6000 6500
+P 6000 7050
+F 0 "H1" H 6100 7096 50  0000 L CNN
+F 1 "MountingHole" H 6100 7005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6000 7050 50  0001 C CNN
+F 3 "~" H 6000 7050 50  0001 C CNN
+	1    6000 7050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5CB704E4
-P 6000 6700
-F 0 "H2" H 6100 6746 50  0000 L CNN
-F 1 "MountingHole" H 6100 6655 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6000 6700 50  0001 C CNN
-F 3 "~" H 6000 6700 50  0001 C CNN
-	1    6000 6700
+P 6000 7250
+F 0 "H2" H 6100 7296 50  0000 L CNN
+F 1 "MountingHole" H 6100 7205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6000 7250 50  0001 C CNN
+F 3 "~" H 6000 7250 50  0001 C CNN
+	1    6000 7250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5CB70540
-P 6000 6900
-F 0 "H3" H 6100 6946 50  0000 L CNN
-F 1 "MountingHole" H 6100 6855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6000 6900 50  0001 C CNN
-F 3 "~" H 6000 6900 50  0001 C CNN
-	1    6000 6900
+P 6000 7450
+F 0 "H3" H 6100 7496 50  0000 L CNN
+F 1 "MountingHole" H 6100 7405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6000 7450 50  0001 C CNN
+F 3 "~" H 6000 7450 50  0001 C CNN
+	1    6000 7450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5CB70598
-P 6000 7100
-F 0 "H4" H 6100 7146 50  0000 L CNN
-F 1 "MountingHole" H 6100 7055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6000 7100 50  0001 C CNN
-F 3 "~" H 6000 7100 50  0001 C CNN
-	1    6000 7100
+P 6000 7650
+F 0 "H4" H 6100 7696 50  0000 L CNN
+F 1 "MountingHole" H 6100 7605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6000 7650 50  0001 C CNN
+F 3 "~" H 6000 7650 50  0001 C CNN
+	1    6000 7650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J12
 U 1 1 5CB626E2
 P 6200 6200
-F 0 "J?" H 6227 6226 50  0000 L CNN
+F 0 "J12" H 6227 6226 50  0000 L CNN
 F 1 "+12v_SUPPLY" H 6350 6200 50  0000 L CNN
 F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 6200 6200 50  0001 C CNN
 F 3 "~" H 6200 6200 50  0001 C CNN
@@ -753,14 +753,58 @@ F 3 "~" H 6200 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0115
 U 1 1 5CB628B6
 P 6000 6200
-F 0 "#PWR?" H 6000 6050 50  0001 C CNN
+F 0 "#PWR0115" H 6000 6050 50  0001 C CNN
 F 1 "+12V" V 6015 6328 50  0000 L CNN
 F 2 "" H 6000 6200 50  0001 C CNN
 F 3 "" H 6000 6200 50  0001 C CNN
 	1    6000 6200
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5CB734CF
+P 6200 6350
+F 0 "J?" H 6227 6376 50  0000 L CNN
+F 1 "VCC supply" H 6350 6350 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 6200 6350 50  0001 C CNN
+F 3 "~" H 6200 6350 50  0001 C CNN
+	1    6200 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5CB76CD1
+P 6200 6500
+F 0 "J?" H 6227 6526 50  0000 L CNN
+F 1 "GND" H 6350 6500 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 6200 6500 50  0001 C CNN
+F 3 "~" H 6200 6500 50  0001 C CNN
+	1    6200 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5CB789A0
+P 6000 6350
+F 0 "#PWR?" H 6000 6200 50  0001 C CNN
+F 1 "VCC" V 6018 6477 50  0000 L CNN
+F 2 "" H 6000 6350 50  0001 C CNN
+F 3 "" H 6000 6350 50  0001 C CNN
+	1    6000 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CB78A95
+P 6000 6500
+F 0 "#PWR?" H 6000 6250 50  0001 C CNN
+F 1 "GND" H 6005 6327 50  0000 C CNN
+F 2 "" H 6000 6500 50  0001 C CNN
+F 3 "" H 6000 6500 50  0001 C CNN
+	1    6000 6500
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
