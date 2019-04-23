@@ -1,51 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# ChamberBoard_Holder
-#
-DEF ChamberBoard_Holder U 0 40 Y Y 1 F N
-F0 "U" -300 0 50 V V C CNN
-F1 "ChamberBoard_Holder" 400 50 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-X PWMA 1 0 450 100 R 50 50 1 1 I
-X PRESSURE_A 10 0 -450 100 R 50 50 1 1 I
-X PRESSURE_B 11 0 -550 100 R 50 50 1 1 I
-X Standby 12 0 -650 100 R 50 50 1 1 I
-X PWMB 2 0 350 100 R 50 50 1 1 I
-X AIN1 3 0 250 100 R 50 50 1 1 I
-X AIN2 4 0 150 100 R 50 50 1 1 I
-X BIN1 5 0 50 100 R 50 50 1 1 I
-X BIN2 6 0 -50 100 R 50 50 1 1 I
-X +12V 7 0 -150 100 R 50 50 1 1 I
-X GND 8 0 -250 100 R 50 50 1 1 I
-X VCC 9 0 -350 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Chinaland_pressure
-#
-DEF Chinaland_pressure U 0 40 Y Y 1 F N
-F0 "U" 0 450 50 H V C CNN
-F1 "Chinaland_pressure" 0 350 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- pressure_sensor
- MPS20N0040D-S
-$ENDFPLIST
-DRAW
-S -200 250 200 -350 0 1 0 N
-X output- 1 -300 100 100 R 50 50 1 1 I
-X input- 2 -300 -100 100 R 50 50 1 1 I
-X _ 3 -300 -300 100 R 50 50 1 1 N
-X output+ 4 300 -200 100 L 50 50 1 1 O
-X input+ 5 300 0 100 L 50 50 1 1 I
-X output- 6 300 200 100 L 50 50 1 1 O
-ENDDRAW
-ENDDEF
-#
 # Pololu-713
 #
 DEF Pololu-713 U 0 40 Y Y 16 F N
