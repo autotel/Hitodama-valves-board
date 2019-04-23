@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Hitodama-valves-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -52,17 +51,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1700 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L teensy:Teensy3.6 U4
-U 1 1 5CB5B701
-P 8150 3350
-F 0 "U4" H 8150 5737 60  0000 C CNN
-F 1 "Teensy3.6" H 8150 5631 60  0000 C CNN
-F 2 "" H 8150 3350 60  0001 C CNN
-F 3 "" H 8150 3350 60  0000 C CNN
-	1    8150 3350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 5CB5B9F1
 P 7150 1250
@@ -72,17 +60,6 @@ F 2 "" H 7150 1250 50  0001 C CNN
 F 3 "" H 7150 1250 50  0001 C CNN
 	1    7150 1250
 	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 5CB5BA86
-P 9150 3650
-F 0 "#PWR0102" H 9150 3400 50  0001 C CNN
-F 1 "GND" V 9155 3522 50  0000 R CNN
-F 2 "" H 9150 3650 50  0001 C CNN
-F 3 "" H 9150 3650 50  0001 C CNN
-	1    9150 3650
-	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0103
@@ -764,10 +741,10 @@ F 3 "" H 6000 6200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J13
 U 1 1 5CB734CF
 P 6200 6350
-F 0 "J?" H 6227 6376 50  0000 L CNN
+F 0 "J13" H 6227 6376 50  0000 L CNN
 F 1 "VCC supply" H 6350 6350 50  0000 L CNN
 F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 6200 6350 50  0001 C CNN
 F 3 "~" H 6200 6350 50  0001 C CNN
@@ -775,10 +752,10 @@ F 3 "~" H 6200 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L Connector:Conn_01x01_Female J14
 U 1 1 5CB76CD1
 P 6200 6500
-F 0 "J?" H 6227 6526 50  0000 L CNN
+F 0 "J14" H 6227 6526 50  0000 L CNN
 F 1 "GND" H 6350 6500 50  0000 L CNN
 F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 6200 6500 50  0001 C CNN
 F 3 "~" H 6200 6500 50  0001 C CNN
@@ -786,10 +763,10 @@ F 3 "~" H 6200 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0116
 U 1 1 5CB789A0
 P 6000 6350
-F 0 "#PWR?" H 6000 6200 50  0001 C CNN
+F 0 "#PWR0116" H 6000 6200 50  0001 C CNN
 F 1 "VCC" V 6018 6477 50  0000 L CNN
 F 2 "" H 6000 6350 50  0001 C CNN
 F 3 "" H 6000 6350 50  0001 C CNN
@@ -797,14 +774,43 @@ F 3 "" H 6000 6350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0117
 U 1 1 5CB78A95
 P 6000 6500
-F 0 "#PWR?" H 6000 6250 50  0001 C CNN
+F 0 "#PWR0117" H 6000 6250 50  0001 C CNN
 F 1 "GND" H 6005 6327 50  0000 C CNN
 F 2 "" H 6000 6500 50  0001 C CNN
 F 3 "" H 6000 6500 50  0001 C CNN
 	1    6000 6500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Jumper JP?
+U 1 1 5CBF1995
+P 5200 5750
+F 0 "JP?" H 5450 5650 50  0000 C CNN
+F 1 "(A,B)IN 1" H 5200 5650 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 5200 5750 50  0001 C CNN
+F 3 "~" H 5200 5750 50  0001 C CNN
+	1    5200 5750
+	-1   0    0    1   
+$EndComp
+Text Label 4900 5750 2    50   ~ 0
+PWMA
+Text Label 5500 5750 0    50   ~ 0
+PWMB
+Text Label 5600 5550 0    50   ~ 0
+PWMB
+Text Label 5850 4850 2    50   ~ 0
+PWMA
+Text Label 3150 5150 0    50   ~ 0
+HVA-
+Text Label 3150 5050 0    50   ~ 0
+HVA+
+Text Label 3150 5250 0    50   ~ 0
+HVB-
+Text Label 3150 5350 0    50   ~ 0
+HVB+
+Wire Bus Line
+	6050 950  6050 7000
 $EndSCHEMATC
