@@ -51,17 +51,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1700 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0101
-U 1 1 5CB5B9F1
-P 7150 1250
-F 0 "#PWR0101" H 7150 1000 50  0001 C CNN
-F 1 "GND" V 7155 1122 50  0000 R CNN
-F 2 "" H 7150 1250 50  0001 C CNN
-F 3 "" H 7150 1250 50  0001 C CNN
-	1    7150 1250
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR0103
 U 1 1 5CB5BB08
 P 3400 4850
@@ -454,7 +443,7 @@ U 1 1 5CB7EE44
 P 2400 5250
 F 0 "J2" H 2900 5200 50  0000 C CNN
 F 1 "Solenoid B" H 2600 5200 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2400 5250 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 2400 5250 50  0001 C CNN
 F 3 "~" H 2400 5250 50  0001 C CNN
 	1    2400 5250
 	-1   0    0    -1  
@@ -465,7 +454,7 @@ U 1 1 5CB7EF76
 P 2400 5150
 F 0 "J1" H 2900 5100 50  0000 C CNN
 F 1 "Solenoid A" H 2600 5100 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2400 5150 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 2400 5150 50  0001 C CNN
 F 3 "~" H 2400 5150 50  0001 C CNN
 	1    2400 5150
 	-1   0    0    1   
@@ -495,10 +484,6 @@ Text Label 4450 5150 0    50   ~ 0
 stby
 Wire Wire Line
 	4450 5150 4250 5150
-Text Label 5450 6000 2    50   ~ 0
-stby
-Wire Wire Line
-	5450 6000 6000 6000
 Wire Wire Line
 	4250 4950 6000 4950
 Wire Wire Line
@@ -555,105 +540,6 @@ Wire Wire Line
 Connection ~ 2750 5050
 Wire Wire Line
 	2750 5050 3500 5050
-$Comp
-L Connector:Conn_01x01_Female J3
-U 1 1 5CB60D51
-P 6200 1850
-F 0 "J3" H 6227 1876 50  0000 L CNN
-F 1 "Pressure_amp_b" H 6227 1785 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 6200 1850 50  0001 C CNN
-F 3 "~" H 6200 1850 50  0001 C CNN
-	1    6200 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J4
-U 1 1 5CB60F97
-P 6200 3350
-F 0 "J4" H 6227 3376 50  0000 L CNN
-F 1 "Pressure_amp_a" H 6227 3285 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 6200 3350 50  0001 C CNN
-F 3 "~" H 6200 3350 50  0001 C CNN
-	1    6200 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J5
-U 1 1 5CB61181
-P 6200 4850
-F 0 "J5" H 6228 4876 50  0000 L CNN
-F 1 "PWMA" H 6350 4850 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 6200 4850 50  0001 C CNN
-F 3 "~" H 6200 4850 50  0001 C CNN
-	1    6200 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J6
-U 1 1 5CB611F1
-P 6200 4950
-F 0 "J6" H 6228 4976 50  0000 L CNN
-F 1 "AIN2" H 6350 4950 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 6200 4950 50  0001 C CNN
-F 3 "~" H 6200 4950 50  0001 C CNN
-	1    6200 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J11
-U 1 1 5CB61257
-P 6200 6000
-F 0 "J11" H 6227 6026 50  0000 L CNN
-F 1 "STANDBY" H 6350 6000 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 6200 6000 50  0001 C CNN
-F 3 "~" H 6200 6000 50  0001 C CNN
-	1    6200 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J9
-U 1 1 5CB612C1
-P 6200 5450
-F 0 "J9" H 6227 5476 50  0000 L CNN
-F 1 "BIN2" H 6350 5450 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 6200 5450 50  0001 C CNN
-F 3 "~" H 6200 5450 50  0001 C CNN
-	1    6200 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J10
-U 1 1 5CB61325
-P 6200 5550
-F 0 "J10" H 6227 5576 50  0000 L CNN
-F 1 "PWMB" H 6350 5550 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 6200 5550 50  0001 C CNN
-F 3 "~" H 6200 5550 50  0001 C CNN
-	1    6200 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J7
-U 1 1 5CB64012
-P 6200 5050
-F 0 "J7" H 6228 5076 50  0000 L CNN
-F 1 "AIN1" H 6350 5050 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 6200 5050 50  0001 C CNN
-F 3 "~" H 6200 5050 50  0001 C CNN
-	1    6200 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J8
-U 1 1 5CB6405E
-P 6200 5250
-F 0 "J8" H 6227 5276 50  0000 L CNN
-F 1 "BIN1" H 6350 5250 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 6200 5250 50  0001 C CNN
-F 3 "~" H 6200 5250 50  0001 C CNN
-	1    6200 5250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4750 5250 4750 5200
 Wire Wire Line
@@ -719,90 +605,49 @@ F 3 "~" H 6000 7650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J12
-U 1 1 5CB626E2
-P 6200 6200
-F 0 "J12" H 6227 6226 50  0000 L CNN
-F 1 "+12v_SUPPLY" H 6350 6200 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 6200 6200 50  0001 C CNN
-F 3 "~" H 6200 6200 50  0001 C CNN
-	1    6200 6200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+12V #PWR0115
 U 1 1 5CB628B6
-P 6000 6200
-F 0 "#PWR0115" H 6000 6050 50  0001 C CNN
-F 1 "+12V" V 6015 6328 50  0000 L CNN
-F 2 "" H 6000 6200 50  0001 C CNN
-F 3 "" H 6000 6200 50  0001 C CNN
-	1    6000 6200
+P 7400 3600
+F 0 "#PWR0115" H 7400 3450 50  0001 C CNN
+F 1 "+12V" V 7400 3750 50  0000 L CNN
+F 2 "" H 7400 3600 50  0001 C CNN
+F 3 "" H 7400 3600 50  0001 C CNN
+	1    7400 3600
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J13
-U 1 1 5CB734CF
-P 6200 6350
-F 0 "J13" H 6227 6376 50  0000 L CNN
-F 1 "VCC supply" H 6350 6350 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 6200 6350 50  0001 C CNN
-F 3 "~" H 6200 6350 50  0001 C CNN
-	1    6200 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J14
-U 1 1 5CB76CD1
-P 6200 6500
-F 0 "J14" H 6227 6526 50  0000 L CNN
-F 1 "GND" H 6350 6500 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 6200 6500 50  0001 C CNN
-F 3 "~" H 6200 6500 50  0001 C CNN
-	1    6200 6500
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0116
 U 1 1 5CB789A0
-P 6000 6350
-F 0 "#PWR0116" H 6000 6200 50  0001 C CNN
-F 1 "VCC" V 6018 6477 50  0000 L CNN
-F 2 "" H 6000 6350 50  0001 C CNN
-F 3 "" H 6000 6350 50  0001 C CNN
-	1    6000 6350
+P 7400 3800
+F 0 "#PWR0116" H 7400 3650 50  0001 C CNN
+F 1 "VCC" V 7400 4000 50  0000 L CNN
+F 2 "" H 7400 3800 50  0001 C CNN
+F 3 "" H 7400 3800 50  0001 C CNN
+	1    7400 3800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0117
 U 1 1 5CB78A95
-P 6000 6500
-F 0 "#PWR0117" H 6000 6250 50  0001 C CNN
-F 1 "GND" H 6005 6327 50  0000 C CNN
-F 2 "" H 6000 6500 50  0001 C CNN
-F 3 "" H 6000 6500 50  0001 C CNN
-	1    6000 6500
-	1    0    0    -1  
+P 7400 3700
+F 0 "#PWR0117" H 7400 3450 50  0001 C CNN
+F 1 "GND" V 7400 3450 50  0000 C CNN
+F 2 "" H 7400 3700 50  0001 C CNN
+F 3 "" H 7400 3700 50  0001 C CNN
+	1    7400 3700
+	0    1    1    0   
 $EndComp
 $Comp
-L Device:Jumper JP?
+L Device:Jumper JP2
 U 1 1 5CBF1995
 P 5200 5750
-F 0 "JP?" H 5450 5650 50  0000 C CNN
+F 0 "JP2" H 5450 5650 50  0000 C CNN
 F 1 "(A,B)IN 1" H 5200 5650 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 5200 5750 50  0001 C CNN
 F 3 "~" H 5200 5750 50  0001 C CNN
 	1    5200 5750
 	-1   0    0    1   
 $EndComp
-Text Label 4900 5750 2    50   ~ 0
-PWMA
-Text Label 5500 5750 0    50   ~ 0
-PWMB
-Text Label 5600 5550 0    50   ~ 0
-PWMB
-Text Label 5850 4850 2    50   ~ 0
-PWMA
 Text Label 3150 5150 0    50   ~ 0
 HVA-
 Text Label 3150 5050 0    50   ~ 0
@@ -813,4 +658,53 @@ Text Label 3150 5350 0    50   ~ 0
 HVB+
 Wire Bus Line
 	6050 950  6050 7000
+$Comp
+L Hitodama~custom~parts:ChamberBoard_Holder U4
+U 1 1 5CC01EC3
+P 7400 3450
+F 0 "U4" H 8069 3411 50  0000 L CNN
+F 1 "ChamberBoard_Holder" H 8069 3320 50  0000 L CNN
+F 2 "chamber_board_holder:chamber_board_holder" H 7400 3450 50  0001 C CNN
+F 3 "" H 7400 3450 50  0001 C CNN
+	1    7400 3450
+	1    0    0    -1  
+$EndComp
+Text Label 7400 3900 2    50   ~ 0
+A.PRESSURE
+Text Label 7400 4000 2    50   ~ 0
+B.PRESSURE
+Text Label 7400 4100 2    50   ~ 0
+stby
+Text Label 7400 3400 2    50   ~ 0
+B.IN.1
+Text Label 7400 3500 2    50   ~ 0
+B.IN.2
+Text Label 7400 3300 2    50   ~ 0
+A.IN.2
+Text Label 7400 3200 2    50   ~ 0
+A.IN.1
+Text Label 7400 3100 2    50   ~ 0
+B.PWM
+Text Label 7400 3000 2    50   ~ 0
+A.PWM
+Text Label 6000 4850 0    50   ~ 0
+A.PWM
+Text Label 4900 5750 2    50   ~ 0
+A.PWM
+Text Label 6000 5550 0    50   ~ 0
+B.PWM
+Text Label 5500 5750 0    50   ~ 0
+B.PWM
+Text Label 6000 5250 0    50   ~ 0
+B.IN.1
+Text Label 6000 5050 0    50   ~ 0
+A.IN.1
+Text Label 6000 4950 0    50   ~ 0
+A.IN.2
+Text Label 6000 5450 0    50   ~ 0
+B.IN.2
+Text Label 6000 3350 0    50   ~ 0
+A.PRESSURE
+Text Label 6000 1850 0    50   ~ 0
+B.PRESSURE
 $EndSCHEMATC

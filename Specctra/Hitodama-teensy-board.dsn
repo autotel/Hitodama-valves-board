@@ -1,0 +1,1062 @@
+(pcb "C:\Users\Joaquín\repositories\Hitodama-valves-board\Specctra\Hitodama-teensy-board.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(5.0.1)-4")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  129000 -184000  10000 -184000  10000 -10000  129000 -10000
+            129000 -184000)
+    )
+    (plane GND (polygon B.Cu 0  6438.9 -2646.68  132291 -2646.68  132291 -183375  125349 -190317
+            8016.24 -190317  2339.34 -182745  6438.9 -2646.68))
+    (keepout "" (polygon B.Cu 0  -144700 -187230  -6270 -187230  -5000 2000  -142160 4540
+            -144700 -187230))
+    (via "Via[0-1]_2000:1000_um" "Via[0-1]_800:400_um")
+    (rule
+      (width 310)
+      (clearance 310.1)
+      (clearance 310.1 (type default_smd))
+      (clearance 77.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component MountingHole:MountingHole_3.2mm_M3
+      (place H1 14000 -14000 front 0 (PN MountingHole))
+      (place H3 14000 -180000 front 0 (PN MountingHole))
+      (place H5 14000 -95000 front 0 (PN MountingHole))
+    )
+    (component MountingHole:MountingHole_3.2mm_M3::1
+      (place H2 125000 -14000 front 0 (PN MountingHole))
+      (place H4 125000 -180000 front 0 (PN MountingHole))
+      (place H6 125000 -95000 front 0 (PN MountingHole))
+    )
+    (component teensy:Teensy35_36
+      (place U4 35000 -90000 front 270 (PN Teensy3.6))
+    )
+    (component chamber_board_holder:chamber_board_holder
+      (place ChamberA1 60000 -175000 front 90 (PN ChamberBoard_Holder))
+      (place ChamberC1 60000 -135000 front 90 (PN ChamberBoard_Holder))
+      (place ChamberF1 60000 -75000 front 90 (PN ChamberBoard_Holder))
+      (place ChamberH1 60000 -35000 front 90 (PN ChamberBoard_Holder))
+    )
+    (component chamber_board_holder:chamber_board_holder::1
+      (place ChamberB1 60000 -155000 front 90 (PN ChamberBoard_Holder))
+      (place ChamberD1 60000 -115000 front 90 (PN ChamberBoard_Holder))
+      (place ChamberE1 60000 -95000 front 90 (PN ChamberBoard_Holder))
+      (place ChamberG1 60000 -55000 front 90 (PN ChamberBoard_Holder))
+      (place ChamberI1 60000 -15000 front 90 (PN ChamberBoard_Holder))
+    )
+  )
+  (library
+    (image MountingHole:MountingHole_3.2mm_M3
+      (outline (path signal 150  3200 0  3119.77 -712.067  2883.1 -1388.43  2501.86 -1995.17
+            1995.17 -2501.86  1388.43 -2883.1  712.067 -3119.77  0 -3200
+            -712.067 -3119.77  -1388.43 -2883.1  -1995.17 -2501.86  -2501.86 -1995.17
+            -2883.1 -1388.43  -3119.77 -712.067  -3200 0  -3119.77 712.067
+            -2883.1 1388.43  -2501.86 1995.17  -1995.17 2501.86  -1388.43 2883.1
+            -712.067 3119.77  0 3200  712.067 3119.77  1388.43 2883.1  1995.17 2501.86
+            2501.86 1995.17  2883.1 1388.43  3119.77 712.067  3200 0))
+      (outline (path signal 50  3450 0  3369.34 -741.648  3131.14 -1448.62  2746.52 -2087.85
+            2233.48 -2629.46  1616.01 -3048.12  922.973 -3324.25  186.779 -3444.94
+            -558.148 -3404.55  -1276.98 -3204.97  -1936.1 -2855.53  -2504.68 -2372.56
+            -2956.16 -1778.66  -3269.4 -1101.59  -3429.78 -373.011  -3429.78 373.011
+            -3269.4 1101.59  -2956.16 1778.66  -2504.68 2372.56  -1936.1 2855.53
+            -1276.98 3204.97  -558.148 3404.55  186.779 3444.94  922.973 3324.25
+            1616.01 3048.12  2233.48 2629.46  2746.52 2087.85  3131.14 1448.62
+            3369.34 741.648  3450 0))
+      (keepout "" (circle F.Cu 3200))
+      (keepout "" (circle B.Cu 3200))
+    )
+    (image MountingHole:MountingHole_3.2mm_M3::1
+      (outline (path signal 50  3450 0  3369.34 -741.648  3131.14 -1448.62  2746.52 -2087.85
+            2233.48 -2629.46  1616.01 -3048.12  922.973 -3324.25  186.779 -3444.94
+            -558.148 -3404.55  -1276.98 -3204.97  -1936.1 -2855.53  -2504.68 -2372.56
+            -2956.16 -1778.66  -3269.4 -1101.59  -3429.78 -373.011  -3429.78 373.011
+            -3269.4 1101.59  -2956.16 1778.66  -2504.68 2372.56  -1936.1 2855.53
+            -1276.98 3204.97  -558.148 3404.55  186.779 3444.94  922.973 3324.25
+            1616.01 3048.12  2233.48 2629.46  2746.52 2087.85  3131.14 1448.62
+            3369.34 741.648  3450 0))
+      (outline (path signal 150  3200 0  3119.77 -712.067  2883.1 -1388.43  2501.86 -1995.17
+            1995.17 -2501.86  1388.43 -2883.1  712.067 -3119.77  0 -3200
+            -712.067 -3119.77  -1388.43 -2883.1  -1995.17 -2501.86  -2501.86 -1995.17
+            -2883.1 -1388.43  -3119.77 -712.067  -3200 0  -3119.77 712.067
+            -2883.1 1388.43  -2501.86 1995.17  -1995.17 2501.86  -1388.43 2883.1
+            -712.067 3119.77  0 3200  712.067 3119.77  1388.43 2883.1  1995.17 2501.86
+            2501.86 1995.17  2883.1 1388.43  3119.77 712.067  3200 0))
+      (keepout "" (circle F.Cu 3200))
+      (keepout "" (circle B.Cu 3200))
+    )
+    (image teensy:Teensy35_36
+      (outline (path signal 150  -13970 3810  -13970 1270))
+      (outline (path signal 150  -13970 1270  -11430 1270))
+      (outline (path signal 150  -11430 1270  -11430 3810))
+      (outline (path signal 150  -11430 3810  -13970 3810))
+      (outline (path signal 150  -6350 -5080  -10160 -5080))
+      (outline (path signal 150  -10160 -5080  -10160 -2540))
+      (outline (path signal 150  -10160 -2540  -6350 -2540))
+      (outline (path signal 150  -6350 -2540  -6350 -5080))
+      (outline (path signal 150  7620 -6350  7620 6350))
+      (outline (path signal 150  -5080 6350  -5080 -6350))
+      (outline (path signal 150  -5080 -6350  7620 -6350))
+      (outline (path signal 150  -5080 6350  7620 6350))
+      (outline (path signal 150  29210 -5080  30480 -5080))
+      (outline (path signal 150  29210 -3810  30480 -3810))
+      (outline (path signal 150  29210 -2540  30480 -2540))
+      (outline (path signal 150  29210 -1270  30480 -1270))
+      (outline (path signal 150  29210 0  30480 0))
+      (outline (path signal 150  29210 1270  30480 1270))
+      (outline (path signal 150  29210 2540  30480 2540))
+      (outline (path signal 150  29210 3810  30480 3810))
+      (outline (path signal 150  29210 5080  30480 5080))
+      (outline (path signal 150  30480 -6350  29210 -5080))
+      (outline (path signal 150  29210 -5080  29210 5080))
+      (outline (path signal 150  29210 5080  30480 6350))
+      (outline (path signal 150  30480 6350  17780 6350))
+      (outline (path signal 150  17780 6350  17780 -6350))
+      (outline (path signal 150  17780 -6350  30480 -6350))
+      (outline (path signal 150  30480 8890  -30480 8890))
+      (outline (path signal 150  -30480 -8890  30480 -8890))
+      (outline (path signal 150  -30480 -3810  -31750 -3810))
+      (outline (path signal 150  -31750 -3810  -31750 3810))
+      (outline (path signal 150  -31750 3810  -30480 3810))
+      (outline (path signal 150  -25400 -3810  -25400 3810))
+      (outline (path signal 150  -25400 3810  -30480 3810))
+      (outline (path signal 150  -25400 -3810  -30480 -3810))
+      (outline (path signal 150  13970 2540  13970 -2540))
+      (outline (path signal 150  13970 -2540  11430 -2540))
+      (outline (path signal 150  11430 -2540  11430 2540))
+      (outline (path signal 150  11430 2540  13970 2540))
+      (outline (path signal 150  30480 8890  30480 -8890))
+      (outline (path signal 150  -30480 -8890  -30480 8890))
+      (pin Round[A]Pad_1600_um 17 11430 -7620)
+      (pin Round[A]Pad_1600_um 18 13970 -7620)
+      (pin Round[A]Pad_1600_um 19 16510 -7620)
+      (pin Round[A]Pad_1600_um 20 19050 -7620)
+      (pin Round[A]Pad_1600_um 16 8890 -7620)
+      (pin Round[A]Pad_1600_um 15 6350 -7620)
+      (pin Round[A]Pad_1600_um 14 3810 -7620)
+      (pin Round[A]Pad_1600_um 21 21590 -7620)
+      (pin Round[A]Pad_1600_um 22 24130 -7620)
+      (pin Round[A]Pad_1600_um 23 26670 -7620)
+      (pin Round[A]Pad_1600_um 24 29210 -7620)
+      (pin Round[A]Pad_1600_um 25 16510 -5080)
+      (pin Round[A]Pad_1600_um 26 16510 -2540)
+      (pin Round[A]Pad_1600_um 27 16510 0)
+      (pin Round[A]Pad_1600_um 28 16510 2540)
+      (pin Round[A]Pad_1600_um 29 16510 5080)
+      (pin Round[A]Pad_1600_um 30 29210 7620)
+      (pin Round[A]Pad_1600_um 31 26670 7620)
+      (pin Round[A]Pad_1600_um 32 24130 7620)
+      (pin Round[A]Pad_1600_um 33 21590 7620)
+      (pin Round[A]Pad_1600_um 34 19050 7620)
+      (pin Round[A]Pad_1600_um 35 16510 7620)
+      (pin Round[A]Pad_1600_um 36 13970 7620)
+      (pin Round[A]Pad_1600_um 37 11430 7620)
+      (pin Round[A]Pad_1600_um 13 1270 -7620)
+      (pin Round[A]Pad_1600_um 12 -1270 -7620)
+      (pin Round[A]Pad_1600_um 11 -3810 -7620)
+      (pin Round[A]Pad_1600_um 10 -6350 -7620)
+      (pin Round[A]Pad_1600_um 9 -8890 -7620)
+      (pin Round[A]Pad_1600_um 8 -11430 -7620)
+      (pin Round[A]Pad_1600_um 7 -13970 -7620)
+      (pin Round[A]Pad_1600_um 6 -16510 -7620)
+      (pin Round[A]Pad_1600_um 5 -19050 -7620)
+      (pin Round[A]Pad_1600_um 4 -21590 -7620)
+      (pin Round[A]Pad_1600_um 3 -24130 -7620)
+      (pin Round[A]Pad_1600_um 2 -26670 -7620)
+      (pin Rect[A]Pad_1600x1600_um 1 -29210 -7620)
+      (pin Round[A]Pad_1600_um 38 8890 7620)
+      (pin Round[A]Pad_1600_um 39 6350 7620)
+      (pin Round[A]Pad_1600_um 40 3810 7620)
+      (pin Round[A]Pad_1600_um 41 1270 7620)
+      (pin Round[A]Pad_1600_um 42 -1270 7620)
+      (pin Round[A]Pad_1600_um 43 -3810 7620)
+      (pin Round[A]Pad_1600_um 44 -6350 7620)
+      (pin Round[A]Pad_1600_um 45 -8890 7620)
+      (pin Round[A]Pad_1600_um 46 -11430 7620)
+      (pin Round[A]Pad_1600_um 47 -13970 7620)
+      (pin Round[A]Pad_1600_um 48 -16510 7620)
+      (pin Round[A]Pad_1600_um 49 -19050 7620)
+      (pin Round[A]Pad_1600_um 50 -21590 7620)
+      (pin Round[A]Pad_1600_um 51 -24130 7620)
+      (pin Round[A]Pad_1600_um 52 -26670 7620)
+      (pin Round[A]Pad_1600_um 53 -29210 7620)
+      (pin Round[A]Pad_1600_um 54 -26670 5080)
+      (pin Round[A]Pad_1600_um 55 -21590 5080)
+      (pin Round[A]Pad_1600_um 56 -19050 5080)
+      (pin Round[A]Pad_1600_um 57 -16510 5080)
+      (pin Round[A]Pad_1600_um 63 -13970 0)
+      (pin Round[A]Pad_1600_um 64 -11430 0)
+      (pin Round[A]Pad_1600_um 65 -8890 0)
+      (pin Round[A]Pad_1600_um 66 -6350 0)
+      (pin Round[A]Pad_1600_um 67 8890 0)
+      (pin Round[A]Pad_1600_um 68 11430 0)
+      (pin Round[A]Pad_1600_um 69 13970 0)
+      (pin Round[A]Pad_1600_um 70 19050 0)
+      (pin Round[A]Pad_1600_um 71 21590 0)
+      (pin Round[A]Pad_1600_um 72 24130 0)
+      (pin Round[A]Pad_1600_um 73 26670 0)
+      (pin Round[A]Pad_1600_um 74 29210 0)
+      (pin Round[A]Pad_1600_um 75 29210 2540)
+      (pin Round[A]Pad_1600_um 76 26670 2540)
+      (pin Round[A]Pad_1600_um 77 24130 2540)
+      (pin Round[A]Pad_1600_um 78 21590 2540)
+      (pin Round[A]Pad_1600_um 79 19050 2540)
+      (pin Round[A]Pad_1600_um 80 13970 2540)
+      (pin Round[A]Pad_1600_um 81 11430 2540)
+      (pin Round[A]Pad_1600_um 82 8890 2540)
+      (pin Round[A]Pad_1600_um 83 -6350 2540)
+      (pin Round[A]Pad_1600_um 84 -8890 2540)
+      (pin Round[A]Pad_1600_um 85 -11430 2540)
+      (pin Round[A]Pad_1600_um 86 -13970 2540)
+      (pin Round[A]Pad_1600_um 58 -22860 -4620)
+      (pin Round[A]Pad_1600_um 59 -20320 -4620)
+      (pin Round[A]Pad_1600_um 60 -17780 -4620)
+      (pin Round[A]Pad_1600_um 61 -15240 -4620)
+      (pin Round[A]Pad_1600_um 62 -12700 -4620)
+    )
+    (image chamber_board_holder:chamber_board_holder
+      (outline (path signal 150  -1270 1270  1270 1270))
+      (outline (path signal 150  -1270 -57150  -1270 1270))
+      (outline (path signal 150  1270 -57150  -1270 -57150))
+      (outline (path signal 150  1270 1270  1270 -57150))
+      (pin Round[A]Pad_2400_um 12 0 -55880)
+      (pin Round[A]Pad_2400_um 11 0 -50800)
+      (pin Round[A]Pad_2400_um 10 0 -45720)
+      (pin Round[A]Pad_2400_um 9 0 -40640)
+      (pin Round[A]Pad_2400_um 8 0 -35560)
+      (pin Round[A]Pad_2400_um 7 0 -30480)
+      (pin Round[A]Pad_2400_um 6 0 -25400)
+      (pin Round[A]Pad_2400_um 5 0 -20320)
+      (pin Round[A]Pad_2400_um 4 0 -15240)
+      (pin Round[A]Pad_2400_um 3 0 -10160)
+      (pin Round[A]Pad_2400_um 2 0 -5080)
+      (pin Round[A]Pad_2400_um 1 0 0)
+    )
+    (image chamber_board_holder:chamber_board_holder::1
+      (outline (path signal 150  1270 1270  1270 -57150))
+      (outline (path signal 150  1270 -57150  -1270 -57150))
+      (outline (path signal 150  -1270 -57150  -1270 1270))
+      (outline (path signal 150  -1270 1270  1270 1270))
+      (pin Round[A]Pad_2400_um 1 0 0)
+      (pin Round[A]Pad_2400_um 2 0 -5080)
+      (pin Round[A]Pad_2400_um 3 0 -10160)
+      (pin Round[A]Pad_2400_um 4 0 -15240)
+      (pin Round[A]Pad_2400_um 5 0 -20320)
+      (pin Round[A]Pad_2400_um 6 0 -25400)
+      (pin Round[A]Pad_2400_um 7 0 -30480)
+      (pin Round[A]Pad_2400_um 8 0 -35560)
+      (pin Round[A]Pad_2400_um 9 0 -40640)
+      (pin Round[A]Pad_2400_um 10 0 -45720)
+      (pin Round[A]Pad_2400_um 11 0 -50800)
+      (pin Round[A]Pad_2400_um 12 0 -55880)
+    )
+    (padstack Round[A]Pad_1600_um
+      (shape (circle F.Cu 1600))
+      (shape (circle B.Cu 1600))
+      (attach off)
+    )
+    (padstack Round[A]Pad_2400_um
+      (shape (circle F.Cu 2400))
+      (shape (circle B.Cu 2400))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1600x1600_um
+      (shape (rect F.Cu -800 -800 800 800))
+      (shape (rect B.Cu -800 -800 800 800))
+      (attach off)
+    )
+    (padstack "Via[0-1]_2000:1000_um"
+      (shape (circle F.Cu 2000))
+      (shape (circle B.Cu 2000))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(U4-Pad25)"
+      (pins U4-25)
+    )
+    (net "Net-(U4-Pad26)"
+      (pins U4-26)
+    )
+    (net "Net-(U4-Pad27)"
+      (pins U4-27)
+    )
+    (net "Net-(U4-Pad28)"
+      (pins U4-28)
+    )
+    (net "Net-(U4-Pad29)"
+      (pins U4-29)
+    )
+    (net "Net-(U4-Pad3)"
+      (pins U4-3)
+    )
+    (net "Net-(U4-Pad2)"
+      (pins U4-2)
+    )
+    (net GND
+      (pins U4-1 ChamberA1-8 ChamberB1-8 ChamberC1-8 ChamberD1-8 ChamberE1-8 ChamberF1-8
+        ChamberG1-8 ChamberH1-8 ChamberI1-8)
+    )
+    (net "Net-(U4-Pad39)"
+      (pins U4-39)
+    )
+    (net "Net-(U4-Pad51)"
+      (pins U4-51)
+    )
+    (net "Net-(U4-Pad52)"
+      (pins U4-52)
+    )
+    (net "Net-(U4-Pad53)"
+      (pins U4-53)
+    )
+    (net "Net-(U4-Pad54)"
+      (pins U4-54)
+    )
+    (net "Net-(U4-Pad55)"
+      (pins U4-55)
+    )
+    (net "Net-(U4-Pad63)"
+      (pins U4-63)
+    )
+    (net "Net-(U4-Pad64)"
+      (pins U4-64)
+    )
+    (net "Net-(U4-Pad65)"
+      (pins U4-65)
+    )
+    (net "Net-(U4-Pad66)"
+      (pins U4-66)
+    )
+    (net "Net-(U4-Pad74)"
+      (pins U4-74)
+    )
+    (net "Net-(U4-Pad75)"
+      (pins U4-75)
+    )
+    (net "Net-(U4-Pad58)"
+      (pins U4-58)
+    )
+    (net "Net-(U4-Pad59)"
+      (pins U4-59)
+    )
+    (net "Net-(U4-Pad60)"
+      (pins U4-60)
+    )
+    (net "Net-(U4-Pad61)"
+      (pins U4-61)
+    )
+    (net /ChamberA.PWM
+      (pins U4-7 ChamberA1-1)
+    )
+    (net /ChamberA.D1
+      (pins U4-6 ChamberA1-3)
+    )
+    (net /ChamberA.D2
+      (pins U4-11 ChamberA1-4)
+    )
+    (net /ChamberA.D3
+      (pins U4-18 ChamberA1-6)
+    )
+    (net /ChamberA.ADC
+      (pins U4-37 ChamberA1-10)
+    )
+    (net /ChamberB.ADC
+      (pins U4-36 ChamberB1-10)
+    )
+    (net /ChamberB.D3
+      (pins U4-23 ChamberB1-6)
+    )
+    (net /ChamberB.D2
+      (pins U4-20 ChamberB1-4)
+    )
+    (net /ChamberB.D1
+      (pins U4-19 ChamberB1-3)
+    )
+    (net /ChamberB.PWM
+      (pins U4-8 ChamberB1-1)
+    )
+    (net /ChamberC.PWM
+      (pins U4-4 ChamberC1-1)
+    )
+    (net /ChamberC.D1
+      (pins U4-24 ChamberC1-3)
+    )
+    (net /ChamberC.D2
+      (pins U4-67 ChamberC1-4)
+    )
+    (net /ChamberC.D3
+      (pins U4-76 ChamberC1-6)
+    )
+    (net /ChamberC.ADC
+      (pins U4-35 ChamberC1-10)
+    )
+    (net /ChamberD.ADC
+      (pins U4-34 ChamberD1-10)
+    )
+    (net /ChamberD.D3
+      (pins U4-49 ChamberD1-6)
+    )
+    (net /ChamberD.D2
+      (pins U4-50 ChamberD1-4)
+    )
+    (net /ChamberD.D1
+      (pins U4-77 ChamberD1-3)
+    )
+    (net /ChamberD.PWM
+      (pins U4-9 ChamberD1-1)
+    )
+    (net /ChamberE.PWM
+      (pins U4-10 ChamberE1-1)
+    )
+    (net /ChamberE.D1
+      (pins U4-48 ChamberE1-3)
+    )
+    (net /ChamberE.D2
+      (pins U4-47 ChamberE1-4)
+    )
+    (net /ChamberE.D3
+      (pins U4-46 ChamberE1-6)
+    )
+    (net /ChamberE.ADC
+      (pins U4-33 ChamberE1-10)
+    )
+    (net /ChamberF.ADC
+      (pins U4-32 ChamberF1-10)
+    )
+    (net /ChamberF.D3
+      (pins U4-42 ChamberF1-6)
+    )
+    (net /ChamberF.D2
+      (pins U4-43 ChamberF1-4)
+    )
+    (net /ChamberF.D1
+      (pins U4-45 ChamberF1-3)
+    )
+    (net /ChamberF.PWM
+      (pins U4-21 ChamberF1-1)
+    )
+    (net /ChamberG.PWM
+      (pins U4-22 ChamberG1-1)
+    )
+    (net /ChamberG.D1
+      (pins U4-41 ChamberG1-3)
+    )
+    (net /ChamberG.D2
+      (pins U4-38 ChamberG1-4)
+    )
+    (net /ChamberG.D3
+      (pins U4-73 ChamberG1-6)
+    )
+    (net /ChamberG.ADC
+      (pins U4-31 ChamberG1-10)
+    )
+    (net /ChamberH.ADC
+      (pins U4-30 ChamberH1-10)
+    )
+    (net /ChamberH.D3
+      (pins U4-70 ChamberH1-6)
+    )
+    (net /ChamberH.D2
+      (pins U4-71 ChamberH1-4)
+    )
+    (net /ChamberH.D1
+      (pins U4-72 ChamberH1-3)
+    )
+    (net /ChamberH.PWM
+      (pins U4-5 ChamberH1-1)
+    )
+    (net /ChamberI.PWM
+      (pins U4-44 ChamberI1-1)
+    )
+    (net /ChamberI.D1
+      (pins U4-69 ChamberI1-3)
+    )
+    (net /ChamberI.D2
+      (pins U4-68 ChamberI1-4)
+    )
+    (net /ChamberI.D3
+      (pins U4-84 ChamberI1-6)
+    )
+    (net /ChamberI.ADC
+      (pins U4-78 ChamberI1-10)
+    )
+    (net /A24
+      (pins U4-79)
+    )
+    (net /D57
+      (pins U4-86)
+    )
+    (net /D56
+      (pins U4-85)
+    )
+    (net /A11
+      (pins U4-57)
+    )
+    (net /A10
+      (pins U4-56)
+    )
+    (net /D51
+      (pins U4-80)
+    )
+    (net /D52
+      (pins U4-81)
+    )
+    (net /D53
+      (pins U4-82)
+    )
+    (net /D54
+      (pins U4-83)
+    )
+    (net /All.Stby
+      (pins U4-17 ChamberA1-12 ChamberB1-12 ChamberC1-12 ChamberD1-12 ChamberE1-12
+        ChamberF1-12 ChamberG1-12 ChamberH1-12 ChamberI1-12)
+    )
+    (net /PanicBtn
+      (pins U4-16)
+    )
+    (net +3V3
+      (pins U4-15)
+    )
+    (net /SPI0.MISO
+      (pins U4-14)
+    )
+    (net /SPI0.MOSI
+      (pins U4-13)
+    )
+    (net /SPI0.CS0
+      (pins U4-12)
+    )
+    (net /SPI0.SCK
+      (pins U4-40)
+    )
+    (net "Net-(U4-Pad62)"
+      (pins U4-62)
+    )
+    (net "Net-(ChamberA1-Pad11)"
+      (pins ChamberA1-11)
+    )
+    (net VCC
+      (pins ChamberA1-9 ChamberB1-9 ChamberC1-9 ChamberD1-9 ChamberE1-9 ChamberF1-9
+        ChamberG1-9 ChamberH1-9 ChamberI1-9)
+    )
+    (net +12V
+      (pins ChamberA1-7 ChamberB1-7 ChamberC1-7 ChamberD1-7 ChamberE1-7 ChamberF1-7
+        ChamberG1-7 ChamberH1-7 ChamberI1-7)
+    )
+    (net "Net-(ChamberA1-Pad5)"
+      (pins ChamberA1-5)
+    )
+    (net "Net-(ChamberA1-Pad2)"
+      (pins ChamberA1-2)
+    )
+    (net "Net-(ChamberB1-Pad2)"
+      (pins ChamberB1-2)
+    )
+    (net "Net-(ChamberB1-Pad5)"
+      (pins ChamberB1-5)
+    )
+    (net "Net-(ChamberB1-Pad11)"
+      (pins ChamberB1-11)
+    )
+    (net "Net-(ChamberC1-Pad11)"
+      (pins ChamberC1-11)
+    )
+    (net "Net-(ChamberC1-Pad5)"
+      (pins ChamberC1-5)
+    )
+    (net "Net-(ChamberC1-Pad2)"
+      (pins ChamberC1-2)
+    )
+    (net "Net-(ChamberD1-Pad2)"
+      (pins ChamberD1-2)
+    )
+    (net "Net-(ChamberD1-Pad5)"
+      (pins ChamberD1-5)
+    )
+    (net "Net-(ChamberD1-Pad11)"
+      (pins ChamberD1-11)
+    )
+    (net "Net-(ChamberE1-Pad2)"
+      (pins ChamberE1-2)
+    )
+    (net "Net-(ChamberE1-Pad5)"
+      (pins ChamberE1-5)
+    )
+    (net "Net-(ChamberE1-Pad11)"
+      (pins ChamberE1-11)
+    )
+    (net "Net-(ChamberF1-Pad11)"
+      (pins ChamberF1-11)
+    )
+    (net "Net-(ChamberF1-Pad5)"
+      (pins ChamberF1-5)
+    )
+    (net "Net-(ChamberF1-Pad2)"
+      (pins ChamberF1-2)
+    )
+    (net "Net-(ChamberG1-Pad2)"
+      (pins ChamberG1-2)
+    )
+    (net "Net-(ChamberG1-Pad5)"
+      (pins ChamberG1-5)
+    )
+    (net "Net-(ChamberG1-Pad11)"
+      (pins ChamberG1-11)
+    )
+    (net "Net-(ChamberH1-Pad11)"
+      (pins ChamberH1-11)
+    )
+    (net "Net-(ChamberH1-Pad5)"
+      (pins ChamberH1-5)
+    )
+    (net "Net-(ChamberH1-Pad2)"
+      (pins ChamberH1-2)
+    )
+    (net "Net-(ChamberI1-Pad2)"
+      (pins ChamberI1-2)
+    )
+    (net "Net-(ChamberI1-Pad5)"
+      (pins ChamberI1-5)
+    )
+    (net "Net-(ChamberI1-Pad11)"
+      (pins ChamberI1-11)
+    )
+    (class kicad_default "" +12V +3V3 /A10 /A11 /A24 /All.Stby /ChamberA.ADC
+      /ChamberA.D1 /ChamberA.D2 /ChamberA.D3 /ChamberA.PWM /ChamberB.ADC /ChamberB.D1
+      /ChamberB.D2 /ChamberB.D3 /ChamberB.PWM /ChamberC.ADC /ChamberC.D1 /ChamberC.D2
+      /ChamberC.D3 /ChamberC.PWM /ChamberD.ADC /ChamberD.D1 /ChamberD.D2 /ChamberD.D3
+      /ChamberD.PWM /ChamberE.ADC /ChamberE.D1 /ChamberE.D2 /ChamberE.D3 /ChamberE.PWM
+      /ChamberF.ADC /ChamberF.D1 /ChamberF.D2 /ChamberF.D3 /ChamberF.PWM /ChamberG.ADC
+      /ChamberG.D1 /ChamberG.D2 /ChamberG.D3 /ChamberG.PWM /ChamberH.ADC /ChamberH.D1
+      /ChamberH.D2 /ChamberH.D3 /ChamberH.PWM /ChamberI.ADC /ChamberI.D1 /ChamberI.D2
+      /ChamberI.D3 /ChamberI.PWM /D51 /D52 /D53 /D54 /D56 /D57 /PanicBtn /SPI0.CS0
+      /SPI0.MISO /SPI0.MOSI /SPI0.SCK GND "Net-(ChamberA1-Pad11)" "Net-(ChamberA1-Pad2)"
+      "Net-(ChamberA1-Pad5)" "Net-(ChamberB1-Pad11)" "Net-(ChamberB1-Pad2)"
+      "Net-(ChamberB1-Pad5)" "Net-(ChamberC1-Pad11)" "Net-(ChamberC1-Pad2)"
+      "Net-(ChamberC1-Pad5)" "Net-(ChamberD1-Pad11)" "Net-(ChamberD1-Pad2)"
+      "Net-(ChamberD1-Pad5)" "Net-(ChamberE1-Pad11)" "Net-(ChamberE1-Pad2)"
+      "Net-(ChamberE1-Pad5)" "Net-(ChamberF1-Pad11)" "Net-(ChamberF1-Pad2)"
+      "Net-(ChamberF1-Pad5)" "Net-(ChamberG1-Pad11)" "Net-(ChamberG1-Pad2)"
+      "Net-(ChamberG1-Pad5)" "Net-(ChamberH1-Pad11)" "Net-(ChamberH1-Pad2)"
+      "Net-(ChamberH1-Pad5)" "Net-(ChamberI1-Pad11)" "Net-(ChamberI1-Pad2)"
+      "Net-(ChamberI1-Pad5)" "Net-(U4-Pad2)" "Net-(U4-Pad25)" "Net-(U4-Pad26)"
+      "Net-(U4-Pad27)" "Net-(U4-Pad28)" "Net-(U4-Pad29)" "Net-(U4-Pad3)" "Net-(U4-Pad39)"
+      "Net-(U4-Pad51)" "Net-(U4-Pad52)" "Net-(U4-Pad53)" "Net-(U4-Pad54)"
+      "Net-(U4-Pad55)" "Net-(U4-Pad58)" "Net-(U4-Pad59)" "Net-(U4-Pad60)"
+      "Net-(U4-Pad61)" "Net-(U4-Pad62)" "Net-(U4-Pad63)" "Net-(U4-Pad64)"
+      "Net-(U4-Pad65)" "Net-(U4-Pad66)" "Net-(U4-Pad74)" "Net-(U4-Pad75)"
+      VCC
+      (circuit
+        (use_via Via[0-1]_2000:1000_um)
+      )
+      (rule
+        (width 310)
+        (clearance 310.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 310  95560 -155000  95560 -175000)(net GND)(type protect))
+    (wire (path F.Cu 310  95560 -135000  95560 -155000)(net GND)(type protect))
+    (wire (path F.Cu 310  95560 -115000  95560 -135000)(net GND)(type protect))
+    (wire (path F.Cu 310  95560 -95000  95560 -115000)(net GND)(type protect))
+    (wire (path F.Cu 310  95560 -95000  95560 -75000)(net GND)(type protect))
+    (wire (path F.Cu 310  95560 -55000  95560 -75000)(net GND)(type protect))
+    (wire (path F.Cu 310  95560 -35000  95560 -55000)(net GND)(type protect))
+    (wire (path F.Cu 310  95560 -15000  95560 -35000)(net GND)(type protect))
+    (wire (path F.Cu 310  60000 -175000  24174.2 -139174  24174.2 -79235.8  27380 -76030)(net /ChamberA.PWM)(type protect))
+    (wire (path B.Cu 310  24224.3 -76645.7  27380 -73490)(net /ChamberA.D1)(type protect))
+    (wire (path B.Cu 310  24224.3 -129064  24224.3 -76645.7)(net /ChamberA.D1)(type protect))
+    (wire (path B.Cu 310  70160 -175000  24224.3 -129064)(net /ChamberA.D1)(type protect))
+    (wire (path F.Cu 310  25434.4 -88135.6  27380 -86190)(net /ChamberA.D2)(type protect))
+    (wire (path F.Cu 310  25434.4 -119059  25434.4 -88135.6)(net /ChamberA.D2)(type protect))
+    (wire (path F.Cu 310  50568.2 -144192  25434.4 -119059)(net /ChamberA.D2)(type protect))
+    (wire (path F.Cu 310  51602.9 -144192  50568.2 -144192)(net /ChamberA.D2)(type protect))
+    (wire (path F.Cu 310  75240 -175000  75240 -167830  51602.9 -144192)(net /ChamberA.D2)(type protect))
+    (wire (path B.Cu 310  56386.6 -151864  24849.7 -120328)(net /ChamberA.D3)(type protect))
+    (wire (path B.Cu 310  85400 -175000  82722.3 -175000)(net /ChamberA.D3)(type protect))
+    (wire (path B.Cu 310  59586.7 -151864  56386.6 -151864)(net /ChamberA.D3)(type protect))
+    (wire (path B.Cu 310  82722.3 -175000  59586.7 -151864)(net /ChamberA.D3)(type protect))
+    (wire (path B.Cu 310  24849.7 -120328  24849.7 -106500  27380 -103970)(net /ChamberA.D3)(type protect))
+    (wire (path B.Cu 310  43805 -101430  49764.2 -107389)(net /ChamberA.ADC)(type protect))
+    (wire (path F.Cu 310  71930.2 -158814  71930.2 -133024)(net /ChamberA.ADC)(type protect))
+    (wire (path F.Cu 310  51705.6 -112800  51705.6 -107389)(net /ChamberA.ADC)(type protect))
+    (wire (path B.Cu 310  49764.2 -107389  51705.6 -107389)(net /ChamberA.ADC)(type protect))
+    (wire (path F.Cu 310  89782.3 -176666  71930.2 -158814)(net /ChamberA.ADC)(type protect))
+    (wire (path F.Cu 310  104054 -176666  89782.3 -176666)(net /ChamberA.ADC)(type protect))
+    (wire (path F.Cu 310  105720 -175000  104054 -176666)(net /ChamberA.ADC)(type protect))
+    (wire (path F.Cu 310  71930.2 -133024  51705.6 -112800)(net /ChamberA.ADC)(type protect))
+    (wire (path B.Cu 310  42620 -101430  43805 -101430)(net /ChamberA.ADC)(type protect))
+    (wire (path B.Cu 310  108010 -114049  108010 -152710)(net /ChamberB.ADC)(type protect))
+    (wire (path B.Cu 310  90604.2 -110993  93668.1 -107929)(net /ChamberB.ADC)(type protect))
+    (wire (path B.Cu 310  108010 -152710  105720 -155000)(net /ChamberB.ADC)(type protect))
+    (wire (path B.Cu 310  101890 -107929  108010 -114049)(net /ChamberB.ADC)(type protect))
+    (wire (path B.Cu 310  42620 -103970  49642.6 -110993  90604.2 -110993)(net /ChamberB.ADC)(type protect))
+    (wire (path B.Cu 310  93668.1 -107929  101890 -107929)(net /ChamberB.ADC)(type protect))
+    (wire (path B.Cu 310  85400 -155000  71319.9 -140920  51629.9 -140920  27380 -116670)(net /ChamberB.D3)(type protect))
+    (wire (path B.Cu 310  26105.4 -110325  27380 -109050)(net /ChamberB.D2)(type protect))
+    (wire (path B.Cu 310  26105.4 -119774  26105.4 -110325)(net /ChamberB.D2)(type protect))
+    (wire (path B.Cu 310  50616.1 -144285  26105.4 -119774)(net /ChamberB.D2)(type protect))
+    (wire (path B.Cu 310  75240 -155000  64525.1 -144285  50616.1 -144285)(net /ChamberB.D2)(type protect))
+    (wire (path B.Cu 310  51116 -145674  25480.4 -120038)(net /ChamberB.D1)(type protect))
+    (wire (path B.Cu 310  25480.4 -108410  27380 -106510)(net /ChamberB.D1)(type protect))
+    (wire (path B.Cu 310  70160 -155000  60833.7 -145674)(net /ChamberB.D1)(type protect))
+    (wire (path B.Cu 310  25480.4 -120038  25480.4 -108410)(net /ChamberB.D1)(type protect))
+    (wire (path B.Cu 310  60833.7 -145674  51116 -145674)(net /ChamberB.D1)(type protect))
+    (wire (path F.Cu 310  24814 -119814  60000 -155000)(net /ChamberB.PWM)(type protect))
+    (wire (path F.Cu 310  27380 -78570  24814 -81136  24814 -119814)(net /ChamberB.PWM)(type protect))
+    (wire (path B.Cu 310  60000 -135000  51501.9 -135000  36265.4 -119764  36265.4 -113552
+            35573.3 -112860  34442.4 -112860  31190 -109608  31190 -98369.4
+            27900.6 -95080  26784.3 -95080  25476.4 -93772.1  25476.4 -78655
+            26831.4 -77300  27965.2 -77300  28645.4 -76619.8  28645.4 -72964.8
+            27900.6 -72220  26778.6 -72220  26105.4 -71546.8  26105.4 -69684.6
+            27380 -68410)(net /ChamberC.PWM)(type protect))
+    (wire (path F.Cu 310  41505 -133335  27380 -119210)(net /ChamberC.D1)(type protect))
+    (wire (path F.Cu 310  68495 -133335  41505 -133335)(net /ChamberC.D1)(type protect))
+    (wire (path F.Cu 310  70160 -135000  68495 -133335)(net /ChamberC.D1)(type protect))
+    (wire (path F.Cu 310  62540.1 -111205  55859.7 -104525)(net /ChamberC.D2)(type protect))
+    (wire (path B.Cu 310  53323.7 -104525  55859.7 -104525)(net /ChamberC.D2)(type protect))
+    (wire (path F.Cu 310  62540.1 -122300  62540.1 -111205)(net /ChamberC.D2)(type protect))
+    (wire (path F.Cu 310  75240 -135000  62540.1 -122300)(net /ChamberC.D2)(type protect))
+    (wire (path B.Cu 310  42064.6 -97620  46419.1 -97620)(net /ChamberC.D2)(type protect))
+    (wire (path B.Cu 310  46578.5 -97779.4  53323.7 -104525)(net /ChamberC.D2)(type protect))
+    (wire (path B.Cu 310  46419.1 -97620  46578.5 -97779.4)(net /ChamberC.D2)(type protect))
+    (wire (path B.Cu 310  41355 -96638.1  41355 -96957.2)(net /ChamberC.D2)(type protect))
+    (wire (path B.Cu 310  37406.1 -93701.1  39096.1 -95391.1)(net /ChamberC.D2)(type protect))
+    (wire (path B.Cu 310  40108 -95391.1  41355 -96638.1)(net /ChamberC.D2)(type protect))
+    (wire (path B.Cu 310  35000 -97758.6  34788.4 -97547)(net /ChamberC.D2)(type protect))
+    (wire (path B.Cu 310  35591.1 -93701.1  37406.1 -93701.1)(net /ChamberC.D2)(type protect))
+    (wire (path B.Cu 310  42022.8 -97625  46424.1 -97625)(net /ChamberC.D2)(type protect))
+    (wire (path B.Cu 310  34788.4 -94503.8  35591.1 -93701.1)(net /ChamberC.D2)(type protect))
+    (wire (path B.Cu 310  34788.4 -97547  34788.4 -94503.8)(net /ChamberC.D2)(type protect))
+    (wire (path B.Cu 310  41355 -96957.2  42022.8 -97625)(net /ChamberC.D2)(type protect))
+    (wire (path B.Cu 310  46424.1 -97625  46578.5 -97779.4)(net /ChamberC.D2)(type protect))
+    (wire (path B.Cu 310  35000 -98890  35000 -97758.6)(net /ChamberC.D2)(type protect))
+    (wire (path B.Cu 310  39096.1 -95391.1  40108 -95391.1)(net /ChamberC.D2)(type protect))
+    (wire (path B.Cu 310  37540 -116670  51327.3 -130457  80857.3 -130457  85400 -135000)(net /ChamberC.D3)(type protect))
+    (wire (path B.Cu 310  101959 -108876  93598.2 -108876)(net /ChamberC.ADC)(type protect))
+    (wire (path B.Cu 310  105720 -135000  107389 -133331)(net /ChamberC.ADC)(type protect))
+    (wire (path B.Cu 310  47722.6 -111613  42620 -106510)(net /ChamberC.ADC)(type protect))
+    (wire (path B.Cu 310  93598.2 -108876  90861.1 -111613)(net /ChamberC.ADC)(type protect))
+    (wire (path B.Cu 310  107389 -114306  101959 -108876)(net /ChamberC.ADC)(type protect))
+    (wire (path B.Cu 310  107389 -133331  107389 -114306)(net /ChamberC.ADC)(type protect))
+    (wire (path B.Cu 310  90861.1 -111613  47722.6 -111613)(net /ChamberC.ADC)(type protect))
+    (wire (path B.Cu 310  105720 -115000  102953 -112233  45802.6 -112233  42620 -109050)(net /ChamberD.ADC)(type protect))
+    (wire (path B.Cu 310  45815.8 -67754.2  55168.4 -67754.2  65000 -77585.8)(net /ChamberD.D3)(type protect))
+    (wire (path F.Cu 310  65000 -81168.2  65000 -79000)(net /ChamberD.D3)(type protect))
+    (wire (path B.Cu 310  65000 -77585.8  65000 -79000)(net /ChamberD.D3)(type protect))
+    (wire (path F.Cu 310  73220.2 -102820  73220.2 -89388.4  65000 -81168.2)(net /ChamberD.D3)(type protect))
+    (wire (path F.Cu 310  85400 -115000  73220.2 -102820)(net /ChamberD.D3)(type protect))
+    (wire (path B.Cu 310  42620 -70950  45815.8 -67754.2)(net /ChamberD.D3)(type protect))
+    (wire (path B.Cu 310  61225.2 -71043.1  57316 -67133.9  45027.5 -67133.9  43751.4 -68410)(net /ChamberD.D2)(type protect))
+    (wire (path B.Cu 310  63496.3 -71043.1  61225.2 -71043.1)(net /ChamberD.D2)(type protect))
+    (wire (path B.Cu 310  68388.3 -75935.1  63496.3 -71043.1)(net /ChamberD.D2)(type protect))
+    (wire (path B.Cu 310  43751.4 -68410  42620 -68410)(net /ChamberD.D2)(type protect))
+    (wire (path F.Cu 310  72245.3 -112005  75240 -115000)(net /ChamberD.D2)(type protect))
+    (wire (path F.Cu 310  72245.3 -94437.4  72245.3 -112005)(net /ChamberD.D2)(type protect))
+    (wire (path F.Cu 310  63415 -85607.1  72245.3 -94437.4)(net /ChamberD.D2)(type protect))
+    (wire (path F.Cu 310  63415 -74200.8  63415 -85607.1)(net /ChamberD.D2)(type protect))
+    (wire (path F.Cu 310  64280.8 -73335  63415 -74200.8)(net /ChamberD.D2)(type protect))
+    (wire (path F.Cu 310  65788.2 -73335  64280.8 -73335)(net /ChamberD.D2)(type protect))
+    (wire (path F.Cu 310  68388.3 -75935.1  65788.2 -73335)(net /ChamberD.D2)(type protect))
+    (wire (path B.Cu 310  38809.9 -112860  37540 -114130)(net /ChamberD.D1)(type protect))
+    (wire (path B.Cu 310  70160 -115000  68020.1 -112860  38809.9 -112860)(net /ChamberD.D1)(type protect))
+    (wire (path F.Cu 310  57628.5 -100606  57628.5 -93535)(net /ChamberD.PWM)(type protect))
+    (wire (path B.Cu 310  54098.5 -90005  57628.5 -93535)(net /ChamberD.PWM)(type protect))
+    (wire (path B.Cu 310  27380 -81110  36275 -90005  54098.5 -90005)(net /ChamberD.PWM)(type protect))
+    (wire (path F.Cu 310  54394.7 -103840  57628.5 -100606)(net /ChamberD.PWM)(type protect))
+    (wire (path F.Cu 310  54394.7 -109395  54394.7 -103840)(net /ChamberD.PWM)(type protect))
+    (wire (path F.Cu 310  60000 -115000  54394.7 -109395)(net /ChamberD.PWM)(type protect))
+    (wire (path B.Cu 310  27380 -83650  35713.6 -91983.6)(net /ChamberE.PWM)(type protect))
+    (wire (path B.Cu 310  42022.8 -92545  51762.8 -92545)(net /ChamberE.PWM)(type protect))
+    (wire (path B.Cu 310  35713.6 -91983.6  41461.4 -91983.6  42022.8 -92545)(net /ChamberE.PWM)(type protect))
+    (wire (path B.Cu 310  54217.8 -95000  60000 -95000)(net /ChamberE.PWM)(type protect))
+    (wire (path B.Cu 310  51762.8 -92545  54217.8 -95000)(net /ChamberE.PWM)(type protect))
+    (wire (path F.Cu 310  62000 -86840  62000 -86000)(net /ChamberE.D1)(type protect))
+    (wire (path B.Cu 310  40735 -83637.2  42022.8 -84925)(net /ChamberE.D1)(type protect))
+    (wire (path F.Cu 310  70160 -95000  62000 -86840)(net /ChamberE.D1)(type protect))
+    (wire (path B.Cu 310  60925.1 -84925  62000 -86000)(net /ChamberE.D1)(type protect))
+    (wire (path B.Cu 310  42022.8 -84925  60925.1 -84925)(net /ChamberE.D1)(type protect))
+    (wire (path B.Cu 310  40735 -76042.8  40735 -83637.2)(net /ChamberE.D1)(type protect))
+    (wire (path B.Cu 310  42620 -74157.8  40735 -76042.8)(net /ChamberE.D1)(type protect))
+    (wire (path B.Cu 310  42620 -73490  42620 -74157.8)(net /ChamberE.D1)(type protect))
+    (wire (path B.Cu 310  61512.7 -80680.9  66584.5 -80680.9)(net /ChamberE.D2)(type protect))
+    (wire (path F.Cu 310  75240 -89336.4  66584.5 -80680.9)(net /ChamberE.D2)(type protect))
+    (wire (path B.Cu 310  56861.8 -76030  61512.7 -80680.9)(net /ChamberE.D2)(type protect))
+    (wire (path B.Cu 310  42620 -76030  56861.8 -76030)(net /ChamberE.D2)(type protect))
+    (wire (path F.Cu 310  75240 -95000  75240 -89336.4)(net /ChamberE.D2)(type protect))
+    (wire (path F.Cu 310  85400 -95000  83389.7 -95000  70206 -81816.3)(net /ChamberE.D3)(type protect))
+    (wire (path B.Cu 310  69206 -82816.3  70206 -81816.3)(net /ChamberE.D3)(type protect))
+    (wire (path B.Cu 310  46866.3 -82816.3  69206 -82816.3)(net /ChamberE.D3)(type protect))
+    (wire (path B.Cu 310  42620 -78570  46866.3 -82816.3)(net /ChamberE.D3)(type protect))
+    (wire (path B.Cu 310  41345.4 -110315  42620 -111590)(net /ChamberE.ADC)(type protect))
+    (wire (path B.Cu 310  41345.4 -103416  41345.4 -110315)(net /ChamberE.ADC)(type protect))
+    (wire (path B.Cu 310  42056.6 -102705  41345.4 -103416)(net /ChamberE.ADC)(type protect))
+    (wire (path B.Cu 310  50338.2 -108854  44188.5 -102705  42056.6 -102705)(net /ChamberE.ADC)(type protect))
+    (wire (path B.Cu 310  91865.8 -108854  50338.2 -108854)(net /ChamberE.ADC)(type protect))
+    (wire (path B.Cu 310  105720 -95000  91865.8 -108854)(net /ChamberE.ADC)(type protect))
+    (wire (path F.Cu 310  43751.4 -114130  48580.1 -109301  48580.1 -105433)(net /ChamberF.ADC)(type protect))
+    (wire (path B.Cu 310  61892.7 -105990  52438.6 -105990  51135.6 -104687  49327 -104687)(net /ChamberF.ADC)(type protect))
+    (wire (path B.Cu 310  75109.2 -92773.1  61892.7 -105990)(net /ChamberF.ADC)(type protect))
+    (wire (path B.Cu 310  87946.9 -92773.1  75109.2 -92773.1)(net /ChamberF.ADC)(type protect))
+    (wire (path F.Cu 310  48580.1 -105433  49327 -104687)(net /ChamberF.ADC)(type protect))
+    (wire (path F.Cu 310  42620 -114130  43751.4 -114130)(net /ChamberF.ADC)(type protect))
+    (wire (path B.Cu 310  105720 -75000  87946.9 -92773.1)(net /ChamberF.ADC)(type protect))
+    (wire (path B.Cu 310  68935 -91465  85400 -75000)(net /ChamberF.D3)(type protect))
+    (wire (path B.Cu 310  59296.8 -91465  68935 -91465)(net /ChamberF.D3)(type protect))
+    (wire (path B.Cu 310  42620 -88730  56561.8 -88730  59296.8 -91465)(net /ChamberF.D3)(type protect))
+    (wire (path B.Cu 310  59368.5 -86190  42620 -86190)(net /ChamberF.D2)(type protect))
+    (wire (path B.Cu 310  71988.1 -78251.9  71988.1 -82106.1)(net /ChamberF.D2)(type protect))
+    (wire (path B.Cu 310  75240 -75000  71988.1 -78251.9)(net /ChamberF.D2)(type protect))
+    (wire (path B.Cu 310  71988.1 -82106.1  65789.2 -88305)(net /ChamberF.D2)(type protect))
+    (wire (path B.Cu 310  61483.5 -88305  59368.5 -86190)(net /ChamberF.D2)(type protect))
+    (wire (path B.Cu 310  65789.2 -88305  61483.5 -88305)(net /ChamberF.D2)(type protect))
+    (wire (path B.Cu 310  43227.2 -77305  42012.8 -77305)(net /ChamberF.D1)(type protect))
+    (wire (path B.Cu 310  67287.7 -82145.9  62100.9 -82145.9)(net /ChamberF.D1)(type protect))
+    (wire (path B.Cu 310  41355 -79845  42620 -81110)(net /ChamberF.D1)(type protect))
+    (wire (path B.Cu 310  41355 -77962.8  41355 -79845)(net /ChamberF.D1)(type protect))
+    (wire (path B.Cu 310  70160 -78186.3  68049.5 -80296.8)(net /ChamberF.D1)(type protect))
+    (wire (path B.Cu 310  62100.9 -82145.9  59784 -79829)(net /ChamberF.D1)(type protect))
+    (wire (path B.Cu 310  68049.5 -80296.8  68049.5 -81384.1)(net /ChamberF.D1)(type protect))
+    (wire (path B.Cu 310  59784 -79829  45751.2 -79829  43227.2 -77305)(net /ChamberF.D1)(type protect))
+    (wire (path B.Cu 310  68049.5 -81384.1  67287.7 -82145.9)(net /ChamberF.D1)(type protect))
+    (wire (path B.Cu 310  42012.8 -77305  41355 -77962.8)(net /ChamberF.D1)(type protect))
+    (wire (path B.Cu 310  70160 -75000  70160 -78186.3)(net /ChamberF.D1)(type protect))
+    (wire (path B.Cu 310  60000 -75000  60000 -77050)(net /ChamberF.PWM)(type protect))
+    (wire (path F.Cu 310  45715.6 -107776  45715.6 -98778.5)(net /ChamberF.PWM)(type protect))
+    (wire (path F.Cu 310  35524.1 -115395  36270 -114649)(net /ChamberF.PWM)(type protect))
+    (wire (path F.Cu 310  61950 -82544.1  61950 -79000)(net /ChamberF.PWM)(type protect))
+    (wire (path F.Cu 310  43171.6 -110320  45715.6 -107776)(net /ChamberF.PWM)(type protect))
+    (wire (path F.Cu 310  42066.6 -110320  43171.6 -110320)(net /ChamberF.PWM)(type protect))
+    (wire (path F.Cu 310  39522 -112865  42066.6 -110320)(net /ChamberF.PWM)(type protect))
+    (wire (path F.Cu 310  36962.2 -112865  39522 -112865)(net /ChamberF.PWM)(type protect))
+    (wire (path F.Cu 310  36270 -113557  36962.2 -112865)(net /ChamberF.PWM)(type protect))
+    (wire (path F.Cu 310  36270 -114649  36270 -113557)(net /ChamberF.PWM)(type protect))
+    (wire (path F.Cu 310  27380 -111590  31185.3 -115395)(net /ChamberF.PWM)(type protect))
+    (wire (path B.Cu 310  60000 -77050  61950 -79000)(net /ChamberF.PWM)(type protect))
+    (wire (path F.Cu 310  45715.6 -98778.5  61950 -82544.1)(net /ChamberF.PWM)(type protect))
+    (wire (path F.Cu 310  31185.3 -115395  35524.1 -115395)(net /ChamberF.PWM)(type protect))
+    (wire (path F.Cu 310  26794.8 -102700  27928.6 -102700)(net /ChamberG.PWM)(type protect))
+    (wire (path B.Cu 310  40402.2 -64600  32945 -72057.3)(net /ChamberG.PWM)(type protect))
+    (wire (path F.Cu 310  27380 -114130  26105.4 -112855)(net /ChamberG.PWM)(type protect))
+    (wire (path F.Cu 310  31651.5 -73350.7  32945 -72057.3)(net /ChamberG.PWM)(type protect))
+    (wire (path F.Cu 310  31651.5 -98977.1  31651.5 -73350.7)(net /ChamberG.PWM)(type protect))
+    (wire (path B.Cu 310  44281.1 -64600  40402.2 -64600)(net /ChamberG.PWM)(type protect))
+    (wire (path F.Cu 310  27928.6 -102700  31651.5 -98977.1)(net /ChamberG.PWM)(type protect))
+    (wire (path B.Cu 310  60000 -55000  53881.1 -55000)(net /ChamberG.PWM)(type protect))
+    (wire (path F.Cu 310  26105.4 -103389  26794.8 -102700)(net /ChamberG.PWM)(type protect))
+    (wire (path B.Cu 310  53881.1 -55000  44281.1 -64600)(net /ChamberG.PWM)(type protect))
+    (wire (path F.Cu 310  26105.4 -112855  26105.4 -103389)(net /ChamberG.PWM)(type protect))
+    (wire (path F.Cu 310  42620 -91270  55279 -78611  55279 -65668.9)(net /ChamberG.D1)(type protect))
+    (wire (path B.Cu 310  59491.1 -65668.9  55279 -65668.9)(net /ChamberG.D1)(type protect))
+    (wire (path B.Cu 310  70160 -55000  59491.1 -65668.9)(net /ChamberG.D1)(type protect))
+    (wire (path B.Cu 310  61928.4 -68311.6  61928.4 -69578.1)(net /ChamberG.D2)(type protect))
+    (wire (path B.Cu 310  75240 -55000  61928.4 -68311.6)(net /ChamberG.D2)(type protect))
+    (wire (path F.Cu 310  57715 -73791.5  61928.4 -69578.1)(net /ChamberG.D2)(type protect))
+    (wire (path F.Cu 310  42620 -98890  42829 -98890)(net /ChamberG.D2)(type protect))
+    (wire (path F.Cu 310  44505 -97214  44505 -97005)(net /ChamberG.D2)(type protect))
+    (wire (path F.Cu 310  57715 -83795  57715 -73791.5)(net /ChamberG.D2)(type protect))
+    (wire (path F.Cu 310  44505 -97005  57715 -83795)(net /ChamberG.D2)(type protect))
+    (wire (path F.Cu 310  42829 -98890  44505 -97214)(net /ChamberG.D2)(type protect))
+    (wire (path F.Cu 310  70959.2 -69440.8  85400 -55000)(net /ChamberG.D3)(type protect))
+    (wire (path F.Cu 310  70959.2 -73335  70959.2 -69440.8)(net /ChamberG.D3)(type protect))
+    (wire (path F.Cu 310  43157.5 -112855  47862 -108151)(net /ChamberG.D3)(type protect))
+    (wire (path F.Cu 310  42078.7 -112855  43157.5 -112855)(net /ChamberG.D3)(type protect))
+    (wire (path F.Cu 310  87065 -115799  87065 -89440.8)(net /ChamberG.D3)(type protect))
+    (wire (path F.Cu 310  47862 -100154  59603.7 -88412.3)(net /ChamberG.D3)(type protect))
+    (wire (path F.Cu 310  36396.6 -115400  39534.1 -115400)(net /ChamberG.D3)(type protect))
+    (wire (path F.Cu 310  87065 -89440.8  70959.2 -73335)(net /ChamberG.D3)(type protect))
+    (wire (path F.Cu 310  35000 -116670  35126.6 -116670  36396.6 -115400)(net /ChamberG.D3)(type protect))
+    (wire (path F.Cu 310  47862 -108151  47862 -100154)(net /ChamberG.D3)(type protect))
+    (wire (path F.Cu 310  59603.7 -88412.3  62100.6 -88412.3  67729.1 -94040.8)(net /ChamberG.D3)(type protect))
+    (wire (path F.Cu 310  74440.8 -116665  86199.2 -116665)(net /ChamberG.D3)(type protect))
+    (wire (path F.Cu 310  67729.1 -94040.8  67729.1 -109953  74440.8 -116665)(net /ChamberG.D3)(type protect))
+    (wire (path F.Cu 310  39534.1 -115400  42078.7 -112855)(net /ChamberG.D3)(type protect))
+    (wire (path F.Cu 310  86199.2 -116665  87065 -115799)(net /ChamberG.D3)(type protect))
+    (wire (path F.Cu 310  49620.6 -109669  49620.6 -106465)(net /ChamberG.ADC)(type protect))
+    (wire (path F.Cu 310  51929.1 -104156  51929.1 -102961)(net /ChamberG.ADC)(type protect))
+    (wire (path F.Cu 310  42620 -116670  49620.6 -109669)(net /ChamberG.ADC)(type protect))
+    (wire (path F.Cu 310  49620.6 -106465  51929.1 -104156)(net /ChamberG.ADC)(type protect))
+    (wire (path F.Cu 310  51929.1 -102961  52929.1 -101961)(net /ChamberG.ADC)(type protect))
+    (wire (path B.Cu 310  105720 -55000  87685 -73035)(net /ChamberG.ADC)(type protect))
+    (wire (path B.Cu 310  86456 -77285  85519.8 -77285)(net /ChamberG.ADC)(type protect))
+    (wire (path B.Cu 310  87685 -73035  87685 -76056)(net /ChamberG.ADC)(type protect))
+    (wire (path B.Cu 310  85519.8 -77285  60843.5 -101961  52929.1 -101961)(net /ChamberG.ADC)(type protect))
+    (wire (path B.Cu 310  87685 -76056  86456 -77285)(net /ChamberG.ADC)(type protect))
+    (wire (path B.Cu 310  72608.1 -83093.5  65824.2 -89877.3)(net /ChamberH.ADC)(type protect))
+    (wire (path F.Cu 310  55533.8 -93478.4  59134.9 -89877.3)(net /ChamberH.ADC)(type protect))
+    (wire (path B.Cu 310  65824.2 -89877.3  60549.1 -89877.3)(net /ChamberH.ADC)(type protect))
+    (wire (path F.Cu 310  55533.8 -101428  55533.8 -93478.4)(net /ChamberH.ADC)(type protect))
+    (wire (path F.Cu 310  42620 -119210  50240.6 -111589)(net /ChamberH.ADC)(type protect))
+    (wire (path F.Cu 310  59134.9 -89877.3  60549.1 -89877.3)(net /ChamberH.ADC)(type protect))
+    (wire (path B.Cu 310  72608.1 -79987.1  72608.1 -83093.5)(net /ChamberH.ADC)(type protect))
+    (wire (path F.Cu 310  50240.6 -106722  55533.8 -101428)(net /ChamberH.ADC)(type protect))
+    (wire (path B.Cu 310  88814.6 -51905.4  88814.6 -63780.6  72608.1 -79987.1)(net /ChamberH.ADC)(type protect))
+    (wire (path B.Cu 310  105720 -35000  88814.6 -51905.4)(net /ChamberH.ADC)(type protect))
+    (wire (path F.Cu 310  50240.6 -111589  50240.6 -106722)(net /ChamberH.ADC)(type protect))
+    (wire (path B.Cu 310  85400 -35000  82722.3 -35000  57094.8 -60627.5  49684.2 -60627.5
+            43167.1 -67144.6  42042.2 -67144.6  41345.4 -67841.4  41345.4 -68987.9
+            40653.3 -69680  39512.9 -69680  32410.3 -76782.6  32410.3 -77117
+            29687.3 -79840  26784.5 -79840  26102.7 -80521.8  26102.7 -86762.6
+            26800.1 -87460  27953.5 -87460  33052.3 -92558.8  33052.3 -105192
+            33730 -105870  33730 -107780  35000 -109050)(net /ChamberH.D3)(type protect))
+    (wire (path F.Cu 310  38805.4 -105994  38805.4 -107088)(net /ChamberH.D2)(type protect))
+    (wire (path F.Cu 310  58335 -74200.8  58335 -84404.6)(net /ChamberH.D2)(type protect))
+    (wire (path F.Cu 310  59200.8 -73335  58335 -74200.8)(net /ChamberH.D2)(type protect))
+    (wire (path F.Cu 310  44229.9 -98509.7  44229.9 -101616)(net /ChamberH.D2)(type protect))
+    (wire (path F.Cu 310  75240 -47195.2  63517.6 -58917.6)(net /ChamberH.D2)(type protect))
+    (wire (path F.Cu 310  36270 -108477  36270 -110320)(net /ChamberH.D2)(type protect))
+    (wire (path F.Cu 310  63517.6 -58917.6  63517.6 -70616.6)(net /ChamberH.D2)(type protect))
+    (wire (path F.Cu 310  36962.2 -107785  36270 -108477)(net /ChamberH.D2)(type protect))
+    (wire (path F.Cu 310  60799.2 -73335  59200.8 -73335)(net /ChamberH.D2)(type protect))
+    (wire (path F.Cu 310  43146.3 -102700  42099.4 -102700)(net /ChamberH.D2)(type protect))
+    (wire (path F.Cu 310  38108.7 -107785  36962.2 -107785)(net /ChamberH.D2)(type protect))
+    (wire (path F.Cu 310  44229.9 -101616  43146.3 -102700)(net /ChamberH.D2)(type protect))
+    (wire (path F.Cu 310  42099.4 -102700  38805.4 -105994)(net /ChamberH.D2)(type protect))
+    (wire (path F.Cu 310  36270 -110320  35000 -111590)(net /ChamberH.D2)(type protect))
+    (wire (path F.Cu 310  58335 -84404.6  44229.9 -98509.7)(net /ChamberH.D2)(type protect))
+    (wire (path F.Cu 310  63517.6 -70616.6  60799.2 -73335)(net /ChamberH.D2)(type protect))
+    (wire (path F.Cu 310  75240 -35000  75240 -47195.2)(net /ChamberH.D2)(type protect))
+    (wire (path F.Cu 310  38805.4 -107088  38108.7 -107785)(net /ChamberH.D2)(type protect))
+    (wire (path F.Cu 310  57095 -48065  70160 -35000)(net /ChamberH.D1)(type protect))
+    (wire (path F.Cu 310  34422.2 -105245  38067.5 -105245)(net /ChamberH.D1)(type protect))
+    (wire (path F.Cu 310  35000 -114130  33725.4 -112855)(net /ChamberH.D1)(type protect))
+    (wire (path F.Cu 310  43885 -96957.2  43885 -94380.7)(net /ChamberH.D1)(type protect))
+    (wire (path F.Cu 310  33725.4 -105941  34422.2 -105245)(net /ChamberH.D1)(type protect))
+    (wire (path F.Cu 310  57095 -81170.7  57095 -48065)(net /ChamberH.D1)(type protect))
+    (wire (path F.Cu 310  43227.2 -97615  43885 -96957.2)(net /ChamberH.D1)(type protect))
+    (wire (path F.Cu 310  41350 -98277.8  42012.8 -97615)(net /ChamberH.D1)(type protect))
+    (wire (path F.Cu 310  33725.4 -112855  33725.4 -105941)(net /ChamberH.D1)(type protect))
+    (wire (path F.Cu 310  38067.5 -105245  41350 -101962)(net /ChamberH.D1)(type protect))
+    (wire (path F.Cu 310  43885 -94380.7  57095 -81170.7)(net /ChamberH.D1)(type protect))
+    (wire (path F.Cu 310  42012.8 -97615  43227.2 -97615)(net /ChamberH.D1)(type protect))
+    (wire (path F.Cu 310  41350 -101962  41350 -98277.8)(net /ChamberH.D1)(type protect))
+    (wire (path B.Cu 310  60000 -35000  28654.6 -66345.4  28654.6 -69675.4  27380 -70950)(net /ChamberH.PWM)(type protect))
+    (wire (path F.Cu 310  42620 -83650  44541.8 -81728.2  44541.8 -30458.2  60000 -15000)(net /ChamberI.PWM)(type protect))
+    (wire (path F.Cu 310  36270 -102700  35000 -103970)(net /ChamberI.D1)(type protect))
+    (wire (path F.Cu 310  70160 -15000  45651.7 -39508.3)(net /ChamberI.D1)(type protect))
+    (wire (path F.Cu 310  42060.2 -84920  38334.3 -88645.9)(net /ChamberI.D1)(type protect))
+    (wire (path F.Cu 310  38334.3 -94629.3  39096.1 -95391.1)(net /ChamberI.D1)(type protect))
+    (wire (path F.Cu 310  40915.7 -97492.7  40726.2 -97682.2)(net /ChamberI.D1)(type protect))
+    (wire (path F.Cu 310  43178.7 -84920  42060.2 -84920)(net /ChamberI.D1)(type protect))
+    (wire (path F.Cu 310  40726.2 -100065  38091.4 -102700)(net /ChamberI.D1)(type protect))
+    (wire (path F.Cu 310  45651.7 -39508.3  45651.7 -82447)(net /ChamberI.D1)(type protect))
+    (wire (path F.Cu 310  38091.4 -102700  36270 -102700)(net /ChamberI.D1)(type protect))
+    (wire (path F.Cu 310  40226.4 -95391.1  40915.7 -96080.4)(net /ChamberI.D1)(type protect))
+    (wire (path F.Cu 310  39096.1 -95391.1  40226.4 -95391.1)(net /ChamberI.D1)(type protect))
+    (wire (path F.Cu 310  40726.2 -97682.2  40726.2 -100065)(net /ChamberI.D1)(type protect))
+    (wire (path F.Cu 310  40915.7 -96080.4  40915.7 -97492.7)(net /ChamberI.D1)(type protect))
+    (wire (path F.Cu 310  38334.3 -88645.9  38334.3 -94629.3)(net /ChamberI.D1)(type protect))
+    (wire (path F.Cu 310  45651.7 -82447  43178.7 -84920)(net /ChamberI.D1)(type protect))
+    (wire (path B.Cu 310  38954.3 -93081.1  39799.3 -93926.1)(net /ChamberI.D2)(type protect))
+    (wire (path F.Cu 310  42059.6 -87460  39799.3 -89720.3)(net /ChamberI.D2)(type protect))
+    (wire (path B.Cu 310  35000 -101430  33735 -100165)(net /ChamberI.D2)(type protect))
+    (wire (path F.Cu 310  49634.4 -81011.3  43185.7 -87460  42059.6 -87460)(net /ChamberI.D2)(type protect))
+    (wire (path F.Cu 310  75240 -15000  49634.4 -40605.6)(net /ChamberI.D2)(type protect))
+    (wire (path B.Cu 310  33735 -100165  33735 -93974.8)(net /ChamberI.D2)(type protect))
+    (wire (path F.Cu 310  39799.3 -89720.3  39799.3 -93926.1)(net /ChamberI.D2)(type protect))
+    (wire (path F.Cu 310  49634.4 -40605.6  49634.4 -81011.3)(net /ChamberI.D2)(type protect))
+    (wire (path B.Cu 310  33735 -93974.8  34628.7 -93081.1  38954.3 -93081.1)(net /ChamberI.D2)(type protect))
+    (wire (path F.Cu 310  51698.4 -50736.8  51698.4 -69219.2)(net /ChamberI.D3)(type protect))
+    (wire (path B.Cu 310  48693 -72224.6  51698.4 -69219.2)(net /ChamberI.D3)(type protect))
+    (wire (path F.Cu 310  68494.6 -31905.4  68494.6 -33940.6)(net /ChamberI.D3)(type protect))
+    (wire (path B.Cu 310  41350 -72916.8  42042.2 -72224.6)(net /ChamberI.D3)(type protect))
+    (wire (path F.Cu 310  68494.6 -33940.6  51698.4 -50736.8)(net /ChamberI.D3)(type protect))
+    (wire (path F.Cu 310  85400 -15000  68494.6 -31905.4)(net /ChamberI.D3)(type protect))
+    (wire (path B.Cu 310  42042.2 -72224.6  48693 -72224.6)(net /ChamberI.D3)(type protect))
+    (wire (path B.Cu 310  38814.6 -79835.4  38814.6 -76544.9  41350 -74009.5  41350 -72916.8)(net /ChamberI.D3)(type protect))
+    (wire (path B.Cu 310  37540 -81110  38814.6 -79835.4)(net /ChamberI.D3)(type protect))
+    (wire (path F.Cu 310  78654.6 -24467.6  89792.2 -13330)(net /ChamberI.ADC)(type protect))
+    (wire (path F.Cu 310  43149.5 -105245  44854.9 -103539  44854.9 -98761.9)(net /ChamberI.ADC)(type protect))
+    (wire (path F.Cu 310  41350 -107780  41350 -105937)(net /ChamberI.ADC)(type protect))
+    (wire (path F.Cu 310  42042.2 -105245  43149.5 -105245)(net /ChamberI.ADC)(type protect))
+    (wire (path F.Cu 310  60485 -83131.8  60485 -77417.5)(net /ChamberI.ADC)(type protect))
+    (wire (path F.Cu 310  104050 -13330  105720 -15000)(net /ChamberI.ADC)(type protect))
+    (wire (path F.Cu 310  66765 -69974  66765 -60750.2)(net /ChamberI.ADC)(type protect))
+    (wire (path F.Cu 310  44854.9 -98761.9  60485 -83131.8)(net /ChamberI.ADC)(type protect))
+    (wire (path F.Cu 310  60485 -77417.5  62795 -75107.5)(net /ChamberI.ADC)(type protect))
+    (wire (path F.Cu 310  89792.2 -13330  104050 -13330)(net /ChamberI.ADC)(type protect))
+    (wire (path F.Cu 310  62795 -75107.5  62795 -73944)(net /ChamberI.ADC)(type protect))
+    (wire (path F.Cu 310  78654.6 -48860.6  78654.6 -24467.6)(net /ChamberI.ADC)(type protect))
+    (wire (path F.Cu 310  37540 -111590  41350 -107780)(net /ChamberI.ADC)(type protect))
+    (wire (path F.Cu 310  66765 -60750.2  78654.6 -48860.6)(net /ChamberI.ADC)(type protect))
+    (wire (path F.Cu 310  41350 -105937  42042.2 -105245)(net /ChamberI.ADC)(type protect))
+    (wire (path F.Cu 310  62795 -73944  66765 -69974)(net /ChamberI.ADC)(type protect))
+    (wire (path F.Cu 310  37540 -76030  37511.8 -76001.8)(net /D57)(type protect))
+    (wire (path F.Cu 310  33727.1 -92617  36276.2 -95166.1)(net /D51)(type protect))
+    (wire (path B.Cu 310  36276.2 -96580.3  36276.2 -95166.1)(net /D51)(type protect))
+    (wire (path B.Cu 310  37540 -103970  36272.8 -102703)(net /D51)(type protect))
+    (wire (path F.Cu 310  33727.1 -75513.3  33727.1 -92617)(net /D51)(type protect))
+    (wire (path F.Cu 310  35650 -69472.5  35650 -73590.4)(net /D51)(type protect))
+    (wire (path F.Cu 310  35615.4 -69437.9  35650 -69472.5)(net /D51)(type protect))
+    (wire (path B.Cu 310  36272.8 -102703  36272.8 -96583.8  36276.2 -96580.3)(net /D51)(type protect))
+    (wire (path F.Cu 310  35650 -73590.4  33727.1 -75513.3)(net /D51)(type protect))
+    (wire (path F.Cu 310  115880 -75000  115880 -95000)(net /All.Stby)(type protect))
+    (wire (path F.Cu 310  115880 -55000  115880 -75000)(net /All.Stby)(type protect))
+    (wire (path B.Cu 310  114182 -156698  105060 -156698  85476.5 -137114  51068.9 -137114
+            28654.7 -114700  28654.7 -102705  28654.6 -102705  27380 -101430)(net /All.Stby)(type protect))
+    (wire (path B.Cu 310  115880 -155000  114182 -156698  115880 -158395  115880 -175000)(net /All.Stby)(type protect))
+    (wire (path B.Cu 310  115880 -135000  115880 -155000)(net /All.Stby)(type protect))
+    (wire (path F.Cu 310  115880 -95000  115880 -115000)(net /All.Stby)(type protect))
+    (wire (path F.Cu 310  115880 -35000  115880 -55000)(net /All.Stby)(type protect))
+    (wire (path F.Cu 310  115880 -115000  115880 -135000)(net /All.Stby)(type protect))
+    (wire (path F.Cu 310  115880 -15000  115880 -35000)(net /All.Stby)(type protect))
+    (wire (path F.Cu 310  100640 -95000  100640 -115000  100640 -135000)(net VCC)(type protect))
+    (wire (path F.Cu 310  100640 -75000  100640 -95000)(net VCC)(type protect))
+    (wire (path B.Cu 310  100640 -35000  98295.1 -32655.1)(net VCC)(type protect))
+    (wire (path B.Cu 310  100640 -15000  100640 -30310.2  98295.1 -32655.1)(net VCC)(type protect))
+    (wire (path F.Cu 310  100640 -155000  100640 -175000)(net VCC)(type protect))
+    (wire (path F.Cu 310  100640 -135000  100640 -155000)(net VCC)(type protect))
+    (wire (path F.Cu 310  100640 -55000  100640 -75000)(net VCC)(type protect))
+    (wire (path F.Cu 310  100640 -35000  100640 -55000)(net VCC)(type protect))
+    (wire (path F.Cu 310  90480 -155000  90480 -175000)(net +12V)(type protect))
+    (wire (path F.Cu 310  90480 -135000  90480 -155000)(net +12V)(type protect))
+    (wire (path F.Cu 310  90480 -35000  90480 -15000)(net +12V)(type protect))
+    (wire (path F.Cu 310  90480 -115000  90480 -135000)(net +12V)(type protect))
+    (wire (path F.Cu 310  90480 -95000  90480 -115000)(net +12V)(type protect))
+    (wire (path F.Cu 310  90480 -55000  90480 -75000)(net +12V)(type protect))
+    (wire (path F.Cu 310  90480 -35000  90480 -55000)(net +12V)(type protect))
+    (wire (path F.Cu 310  90480 -95000  90480 -75000)(net +12V)(type protect))
+    (via "Via[0-1]_2000:1000_um"  51705.6 -107389 (net /ChamberA.ADC)(type protect))
+    (via "Via[0-1]_2000:1000_um"  55859.7 -104525 (net /ChamberC.D2)(type protect))
+    (via "Via[0-1]_2000:1000_um"  65000 -79000 (net /ChamberD.D3)(type protect))
+    (via "Via[0-1]_800:400_um"  68388.3 -75935.1 (net /ChamberD.D2)(type protect))
+    (via "Via[0-1]_2000:1000_um"  57628.5 -93535 (net /ChamberD.PWM)(type protect))
+    (via "Via[0-1]_2000:1000_um"  62000 -86000 (net /ChamberE.D1)(type protect))
+    (via "Via[0-1]_2000:1000_um"  66584.5 -80680.9 (net /ChamberE.D2)(type protect))
+    (via "Via[0-1]_2000:1000_um"  70206 -81816.3 (net /ChamberE.D3)(type protect))
+    (via "Via[0-1]_2000:1000_um"  49327 -104687 (net /ChamberF.ADC)(type protect))
+    (via "Via[0-1]_2000:1000_um"  61950 -79000 (net /ChamberF.PWM)(type protect))
+    (via "Via[0-1]_2000:1000_um"  32945 -72057.3 (net /ChamberG.PWM)(type protect))
+    (via "Via[0-1]_2000:1000_um"  55279 -65668.9 (net /ChamberG.D1)(type protect))
+    (via "Via[0-1]_2000:1000_um"  61928.4 -69578.1 (net /ChamberG.D2)(type protect))
+    (via "Via[0-1]_2000:1000_um"  52929.1 -101961 (net /ChamberG.ADC)(type protect))
+    (via "Via[0-1]_2000:1000_um"  60549.1 -89877.3 (net /ChamberH.ADC)(type protect))
+    (via "Via[0-1]_2000:1000_um"  39799.3 -93926.1 (net /ChamberI.D2)(type protect))
+    (via "Via[0-1]_2000:1000_um"  51698.4 -69219.2 (net /ChamberI.D3)(type protect))
+    (via "Via[0-1]_2000:1000_um"  36276.2 -95166.1 (net /D51)(type protect))
+  )
+)
