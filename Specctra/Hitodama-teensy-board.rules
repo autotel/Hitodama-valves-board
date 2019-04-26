@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 2245)
+    (start_pass_no 5211)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -87,12 +87,12 @@
     /ChamberE.ADC /ChamberF.ADC /ChamberF.D3 /ChamberF.D2 /ChamberF.D1 /ChamberF.PWM /ChamberG.PWM /ChamberG.D1
     /ChamberG.D2 /ChamberG.D3 /ChamberG.ADC /ChamberH.ADC /ChamberH.D3 /ChamberH.D2 /ChamberH.D1 /ChamberH.PWM
     /ChamberI.PWM /ChamberI.D1 /ChamberI.D2 /ChamberI.D3 /ChamberI.ADC /A24 /D57 /D56
-    /A11 /A10 /D51 /D52 /D53 /D54 /All.Stby /PanicBtn
-    +3V3 /SPI0.MISO /SPI0.MOSI /SPI0.CS0 /SPI0.SCK "Net-(U4-Pad62)" "Net-(ChamberA1-Pad11)" VCC
-    +12V "Net-(ChamberA1-Pad5)" "Net-(ChamberA1-Pad2)" "Net-(ChamberB1-Pad2)" "Net-(ChamberB1-Pad5)" "Net-(ChamberB1-Pad11)" "Net-(ChamberC1-Pad11)" "Net-(ChamberC1-Pad5)"
-    "Net-(ChamberC1-Pad2)" "Net-(ChamberD1-Pad2)" "Net-(ChamberD1-Pad5)" "Net-(ChamberD1-Pad11)" "Net-(ChamberE1-Pad2)" "Net-(ChamberE1-Pad5)" "Net-(ChamberE1-Pad11)" "Net-(ChamberF1-Pad11)"
-    "Net-(ChamberF1-Pad5)" "Net-(ChamberF1-Pad2)" "Net-(ChamberG1-Pad2)" "Net-(ChamberG1-Pad5)" "Net-(ChamberG1-Pad11)" "Net-(ChamberH1-Pad11)" "Net-(ChamberH1-Pad5)" "Net-(ChamberH1-Pad2)"
-    "Net-(ChamberI1-Pad2)" "Net-(ChamberI1-Pad5)" "Net-(ChamberI1-Pad11)"
+    /A11 /A10 /All.Stby /PanicBtn +3V3 /SPI0.MISO /SPI0.MOSI /SPI0.CS0
+    /SPI0.SCK "Net-(U4-Pad62)" "Net-(ChamberA1-Pad11)" VCC +12V "Net-(ChamberA1-Pad5)" "Net-(ChamberA1-Pad2)" "Net-(ChamberB1-Pad2)"
+    "Net-(ChamberB1-Pad5)" "Net-(ChamberB1-Pad11)" "Net-(ChamberC1-Pad11)" "Net-(ChamberC1-Pad5)" "Net-(ChamberC1-Pad2)" "Net-(ChamberD1-Pad2)" "Net-(ChamberD1-Pad5)" "Net-(ChamberD1-Pad11)"
+    "Net-(ChamberE1-Pad2)" "Net-(ChamberE1-Pad5)" "Net-(ChamberE1-Pad11)" "Net-(ChamberF1-Pad11)" "Net-(ChamberF1-Pad5)" "Net-(ChamberF1-Pad2)" "Net-(ChamberG1-Pad2)" "Net-(ChamberG1-Pad5)"
+    "Net-(ChamberG1-Pad11)" "Net-(ChamberH1-Pad11)" "Net-(ChamberH1-Pad5)" "Net-(ChamberH1-Pad2)" "Net-(ChamberI1-Pad2)" "Net-(ChamberI1-Pad5)" "Net-(ChamberI1-Pad11)" /SPI0.CS4
+    /SPI0.CS3 /SPI0.CS2 /SPI0.CS1
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
