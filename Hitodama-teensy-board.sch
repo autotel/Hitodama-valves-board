@@ -223,43 +223,17 @@ Text Label 1150 1000 1    50   ~ 0
 D57
 Text Label 1250 1000 1    50   ~ 0
 D56
-Text Label 1450 1000 1    50   ~ 0
-D54
-Text Label 1550 1000 1    50   ~ 0
-D53
-Text Label 1650 1000 1    50   ~ 0
-D52
-Text Label 1750 1000 1    50   ~ 0
-D51
 Text Label 1850 1000 1    50   ~ 0
 A24
-Text Label 7650 3050 2    50   ~ 0
-D54
-Text Label 7650 2950 2    50   ~ 0
-D53
-Text Label 7650 2850 2    50   ~ 0
-D52
-Text Label 7650 2750 2    50   ~ 0
-D51
-Text Label 7650 2650 2    50   ~ 0
-A24
-Text Label 7650 2550 2    50   ~ 0
-D57
-Text Label 7650 2450 2    50   ~ 0
-D56
-Text Label 7650 2350 2    50   ~ 0
-A11
-Text Label 7650 2250 2    50   ~ 0
-A10
 $Comp
 L power:GND #PWR0103
 U 1 1 5CBF23A6
-P 7650 3150
-F 0 "#PWR0103" H 7650 2900 50  0001 C CNN
-F 1 "GND" V 7650 3000 50  0000 R CNN
-F 2 "" H 7650 3150 50  0001 C CNN
-F 3 "" H 7650 3150 50  0001 C CNN
-	1    7650 3150
+P 6150 6700
+F 0 "#PWR0103" H 6150 6450 50  0001 C CNN
+F 1 "GND" V 6150 6550 50  0000 R CNN
+F 2 "" H 6150 6700 50  0001 C CNN
+F 3 "" H 6150 6700 50  0001 C CNN
+	1    6150 6700
 	0    1    1    0   
 $EndComp
 Text Label 1900 4650 2    50   ~ 0
@@ -767,36 +741,238 @@ F 3 "" H 4900 6650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x12_Male J1
-U 1 1 5CBF1468
-P 7850 2850
-F 0 "J1" H 7750 2750 50  0000 R CNN
-F 1 "Conn_01x12_Male" H 7750 2850 50  0000 R CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x12_P1.27mm_Vertical" H 7850 2850 50  0001 C CNN
-F 3 "~" H 7850 2850 50  0001 C CNN
-	1    7850 2850
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VCC #PWR0131
-U 1 1 5CBF1579
-P 7650 3250
-F 0 "#PWR0131" H 7650 3100 50  0001 C CNN
-F 1 "VCC" V 7650 3400 50  0000 L CNN
-F 2 "" H 7650 3250 50  0001 C CNN
-F 3 "" H 7650 3250 50  0001 C CNN
-	1    7650 3250
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:+12V #PWR0132
 U 1 1 5CBF16DE
-P 7650 3350
-F 0 "#PWR0132" H 7650 3200 50  0001 C CNN
-F 1 "+12V" V 7650 3500 50  0000 L CNN
-F 2 "" H 7650 3350 50  0001 C CNN
-F 3 "" H 7650 3350 50  0001 C CNN
-	1    7650 3350
+P 6150 6900
+F 0 "#PWR0132" H 6150 6750 50  0001 C CNN
+F 1 "+12V" V 6150 7050 50  0000 L CNN
+F 2 "" H 6150 6900 50  0001 C CNN
+F 3 "" H 6150 6900 50  0001 C CNN
+	1    6150 6900
 	0    -1   -1   0   
+$EndComp
+Text Label 6050 6000 2    50   ~ 0
+SPI0.SCK
+Text Label 6050 6200 2    50   ~ 0
+SPI0.CS0
+Text Label 6050 6100 2    50   ~ 0
+SPI0.MOSI
+Text Label 6050 6300 2    50   ~ 0
+SPI0.MISO
+Text Label 1450 1000 1    50   ~ 0
+SPI0.CS1
+Text Label 1550 1000 1    50   ~ 0
+SPI0.CS2
+Text Label 1650 1000 1    50   ~ 0
+SPI0.CS3
+Text Label 7550 6200 2    50   ~ 0
+SPI0.CS2
+Text Label 8300 6200 2    50   ~ 0
+SPI0.CS3
+Text Label 6800 6200 2    50   ~ 0
+SPI0.CS1
+$Comp
+L power:VCC #PWR01
+U 1 1 5CC2C849
+P 6050 5800
+F 0 "#PWR01" H 6050 5650 50  0001 C CNN
+F 1 "VCC" V 6068 5927 50  0000 L CNN
+F 2 "" H 6050 5800 50  0001 C CNN
+F 3 "" H 6050 5800 50  0001 C CNN
+	1    6050 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5CC2C96A
+P 6050 5900
+F 0 "#PWR06" H 6050 5650 50  0001 C CNN
+F 1 "GND" V 6055 5772 50  0000 R CNN
+F 2 "" H 6050 5900 50  0001 C CNN
+F 3 "" H 6050 5900 50  0001 C CNN
+	1    6050 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female SPIO_0
+U 1 1 5CC2D0B5
+P 6250 6000
+F 0 "SPIO_0" H 5800 5550 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 5750 5650 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6250 6000 50  0001 C CNN
+F 3 "~" H 6250 6000 50  0001 C CNN
+	1    6250 6000
+	1    0    0    -1  
+$EndComp
+Text Label 6800 6000 2    50   ~ 0
+SPI0.SCK
+Text Label 6800 6100 2    50   ~ 0
+SPI0.MOSI
+Text Label 6800 6300 2    50   ~ 0
+SPI0.MISO
+$Comp
+L power:VCC #PWR02
+U 1 1 5CC2D367
+P 6800 5800
+F 0 "#PWR02" H 6800 5650 50  0001 C CNN
+F 1 "VCC" V 6818 5927 50  0000 L CNN
+F 2 "" H 6800 5800 50  0001 C CNN
+F 3 "" H 6800 5800 50  0001 C CNN
+	1    6800 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5CC2D36D
+P 6800 5900
+F 0 "#PWR07" H 6800 5650 50  0001 C CNN
+F 1 "GND" V 6805 5772 50  0000 R CNN
+F 2 "" H 6800 5900 50  0001 C CNN
+F 3 "" H 6800 5900 50  0001 C CNN
+	1    6800 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female SPIO_1
+U 1 1 5CC2D373
+P 7000 6000
+F 0 "SPIO_1" H 6550 5550 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 6500 5650 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7000 6000 50  0001 C CNN
+F 3 "~" H 7000 6000 50  0001 C CNN
+	1    7000 6000
+	1    0    0    -1  
+$EndComp
+Text Label 7550 6000 2    50   ~ 0
+SPI0.SCK
+Text Label 7550 6100 2    50   ~ 0
+SPI0.MOSI
+Text Label 7550 6300 2    50   ~ 0
+SPI0.MISO
+$Comp
+L power:VCC #PWR03
+U 1 1 5CC2D39D
+P 7550 5800
+F 0 "#PWR03" H 7550 5650 50  0001 C CNN
+F 1 "VCC" V 7568 5927 50  0000 L CNN
+F 2 "" H 7550 5800 50  0001 C CNN
+F 3 "" H 7550 5800 50  0001 C CNN
+	1    7550 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5CC2D3A3
+P 7550 5900
+F 0 "#PWR08" H 7550 5650 50  0001 C CNN
+F 1 "GND" V 7555 5772 50  0000 R CNN
+F 2 "" H 7550 5900 50  0001 C CNN
+F 3 "" H 7550 5900 50  0001 C CNN
+	1    7550 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female SPIO_2
+U 1 1 5CC2D3A9
+P 7750 6000
+F 0 "SPIO_2" H 7300 5550 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 7250 5650 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7750 6000 50  0001 C CNN
+F 3 "~" H 7750 6000 50  0001 C CNN
+	1    7750 6000
+	1    0    0    -1  
+$EndComp
+Text Label 8300 6000 2    50   ~ 0
+SPI0.SCK
+Text Label 8300 6100 2    50   ~ 0
+SPI0.MOSI
+Text Label 8300 6300 2    50   ~ 0
+SPI0.MISO
+$Comp
+L power:VCC #PWR04
+U 1 1 5CC2D476
+P 8300 5800
+F 0 "#PWR04" H 8300 5650 50  0001 C CNN
+F 1 "VCC" V 8318 5927 50  0000 L CNN
+F 2 "" H 8300 5800 50  0001 C CNN
+F 3 "" H 8300 5800 50  0001 C CNN
+	1    8300 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5CC2D47C
+P 8300 5900
+F 0 "#PWR09" H 8300 5650 50  0001 C CNN
+F 1 "GND" V 8305 5772 50  0000 R CNN
+F 2 "" H 8300 5900 50  0001 C CNN
+F 3 "" H 8300 5900 50  0001 C CNN
+	1    8300 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female SPIO_3
+U 1 1 5CC2D482
+P 8500 6000
+F 0 "SPIO_3" H 8050 5550 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 8000 5650 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 8500 6000 50  0001 C CNN
+F 3 "~" H 8500 6000 50  0001 C CNN
+	1    8500 6000
+	1    0    0    -1  
+$EndComp
+Text Label 9050 6200 2    50   ~ 0
+SPI0.CS4
+Text Label 9050 6000 2    50   ~ 0
+SPI0.SCK
+Text Label 9050 6100 2    50   ~ 0
+SPI0.MOSI
+Text Label 9050 6300 2    50   ~ 0
+SPI0.MISO
+$Comp
+L power:VCC #PWR05
+U 1 1 5CC2D813
+P 9050 5800
+F 0 "#PWR05" H 9050 5650 50  0001 C CNN
+F 1 "VCC" V 9068 5927 50  0000 L CNN
+F 2 "" H 9050 5800 50  0001 C CNN
+F 3 "" H 9050 5800 50  0001 C CNN
+	1    9050 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5CC2D819
+P 9050 5900
+F 0 "#PWR010" H 9050 5650 50  0001 C CNN
+F 1 "GND" V 9055 5772 50  0000 R CNN
+F 2 "" H 9050 5900 50  0001 C CNN
+F 3 "" H 9050 5900 50  0001 C CNN
+	1    9050 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female SPIO_4
+U 1 1 5CC2D81F
+P 9250 6000
+F 0 "SPIO_4" H 8800 5550 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 8750 5650 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 9250 6000 50  0001 C CNN
+F 3 "~" H 9250 6000 50  0001 C CNN
+	1    9250 6000
+	1    0    0    -1  
+$EndComp
+Text Label 1750 1000 1    50   ~ 0
+SPI0.CS4
+$Comp
+L Connector:Jack-DC J1
+U 1 1 5CC2EC84
+P 6450 6800
+F 0 "J1" H 6220 6758 50  0000 R CNN
+F 1 "Jack-DC" H 6220 6849 50  0000 R CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 6500 6760 50  0001 C CNN
+F 3 "~" H 6500 6760 50  0001 C CNN
+	1    6450 6800
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
