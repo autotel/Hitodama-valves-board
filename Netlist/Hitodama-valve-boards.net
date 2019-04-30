@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Joaquín\repositories\Hitodama-valves-board\Hitodama-valve-boards.sch)
-    (date "23/04/2019 17:58:43")
+    (date "30/04/2019 13:05:18")
     (tool "Eeschema (5.0.1)-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -126,7 +126,7 @@
       (tstamp 5CB7EF76))
     (comp (ref JP1)
       (value "(A,B)IN 1")
-      (footprint Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Device) (part Jumper) (description "Jumper, normally closed"))
       (sheetpath (names /) (tstamps /))
@@ -175,7 +175,7 @@
       (tstamp 5CB70598))
     (comp (ref JP2)
       (value "(A,B)IN 1")
-      (footprint Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Device) (part Jumper) (description "Jumper, normally closed"))
       (sheetpath (names /) (tstamps /))

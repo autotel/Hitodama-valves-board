@@ -1,0 +1,313 @@
+(pcb "C:\Users\Joaquín\repositories\Hitodama-valves-board\Specctra\hitodama-teensy-valve-board.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(5.0.1)-4")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  127000 -101600  0 -101600  0 0  127000 0  127000 -101600)
+    )
+    (plane GND (polygon F.Cu 0  0 0  127500 0  127500 -102500  0 -102500  0 0))
+    (keepout "" (polygon B.Cu 0  -2500 2500  130000 2500  130000 -105000  -2500 -105000
+            -2500 2500))
+    (via "Via[0-1]_2000:1000_um")
+    (rule
+      (width 310)
+      (clearance 310.1)
+      (clearance 310.1 (type default_smd))
+      (clearance 77.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component chamber_board_holder:chamber_board_holder
+      (place ChamberA1 22500 -15000 front 0 (PN ChamberBoard_Holder))
+      (place ChamberC1 117500 -15000 front 0 (PN ChamberBoard_Holder))
+    )
+    (component chamber_board_holder:chamber_board_holder::1
+      (place ChamberB1 70000 -15000 front 0 (PN ChamberBoard_Holder))
+    )
+    (component MountingHole:MountingHole_3.2mm_M3
+      (place H1 5000 -5000 front 0 (PN MountingHole))
+      (place H3 122500 -97500 front 0 (PN MountingHole))
+      (place H5 85000 -5000 front 0 (PN MountingHole))
+    )
+    (component MountingHole:MountingHole_3.2mm_M3::1
+      (place H2 122500 -5000 front 0 (PN MountingHole))
+      (place H4 5000 -100000 front 0 (PN MountingHole))
+      (place H6 85000 -97500 front 0 (PN MountingHole))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x21_P2.54mm_Vertical
+      (place J1 19200 -87500 front 90 (PN Conn_01x21_Female))
+    )
+  )
+  (library
+    (image chamber_board_holder:chamber_board_holder
+      (outline (path signal 150  -1270 1270  1270 1270))
+      (outline (path signal 150  -1270 -57150  -1270 1270))
+      (outline (path signal 150  1270 -57150  -1270 -57150))
+      (outline (path signal 150  1270 1270  1270 -57150))
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 2 0 -5080)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 12 0 -55880)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 11 0 -50800)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 10 0 -45720)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 9 0 -40640)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 8 0 -35560)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 7 0 -30480)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 6 0 -25400)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 5 0 -20320)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 4 0 -15240)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 3 0 -10160)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 1 0 0)
+    )
+    (image chamber_board_holder:chamber_board_holder::1
+      (outline (path signal 150  1270 1270  1270 -57150))
+      (outline (path signal 150  1270 -57150  -1270 -57150))
+      (outline (path signal 150  -1270 -57150  -1270 1270))
+      (outline (path signal 150  -1270 1270  1270 1270))
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 1 0 0)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 3 0 -10160)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 4 0 -15240)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 5 0 -20320)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 6 0 -25400)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 7 0 -30480)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 8 0 -35560)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 9 0 -40640)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 10 0 -45720)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 11 0 -50800)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 12 0 -55880)
+      (pin Cust[A]Pad_2400x2400_4194.22x_2400_21_um 2 0 -5080)
+    )
+    (image MountingHole:MountingHole_3.2mm_M3
+      (outline (path signal 150  3200 0  3119.77 -712.067  2883.1 -1388.43  2501.86 -1995.17
+            1995.17 -2501.86  1388.43 -2883.1  712.067 -3119.77  0 -3200
+            -712.067 -3119.77  -1388.43 -2883.1  -1995.17 -2501.86  -2501.86 -1995.17
+            -2883.1 -1388.43  -3119.77 -712.067  -3200 0  -3119.77 712.067
+            -2883.1 1388.43  -2501.86 1995.17  -1995.17 2501.86  -1388.43 2883.1
+            -712.067 3119.77  0 3200  712.067 3119.77  1388.43 2883.1  1995.17 2501.86
+            2501.86 1995.17  2883.1 1388.43  3119.77 712.067  3200 0))
+      (outline (path signal 50  3450 0  3369.34 -741.648  3131.14 -1448.62  2746.52 -2087.85
+            2233.48 -2629.46  1616.01 -3048.12  922.973 -3324.25  186.779 -3444.94
+            -558.148 -3404.55  -1276.98 -3204.97  -1936.1 -2855.53  -2504.68 -2372.56
+            -2956.16 -1778.66  -3269.4 -1101.59  -3429.78 -373.011  -3429.78 373.011
+            -3269.4 1101.59  -2956.16 1778.66  -2504.68 2372.56  -1936.1 2855.53
+            -1276.98 3204.97  -558.148 3404.55  186.779 3444.94  922.973 3324.25
+            1616.01 3048.12  2233.48 2629.46  2746.52 2087.85  3131.14 1448.62
+            3369.34 741.648  3450 0))
+      (keepout "" (circle F.Cu 3200))
+      (keepout "" (circle B.Cu 3200))
+    )
+    (image MountingHole:MountingHole_3.2mm_M3::1
+      (outline (path signal 50  3450 0  3369.34 -741.648  3131.14 -1448.62  2746.52 -2087.85
+            2233.48 -2629.46  1616.01 -3048.12  922.973 -3324.25  186.779 -3444.94
+            -558.148 -3404.55  -1276.98 -3204.97  -1936.1 -2855.53  -2504.68 -2372.56
+            -2956.16 -1778.66  -3269.4 -1101.59  -3429.78 -373.011  -3429.78 373.011
+            -3269.4 1101.59  -2956.16 1778.66  -2504.68 2372.56  -1936.1 2855.53
+            -1276.98 3204.97  -558.148 3404.55  186.779 3444.94  922.973 3324.25
+            1616.01 3048.12  2233.48 2629.46  2746.52 2087.85  3131.14 1448.62
+            3369.34 741.648  3450 0))
+      (outline (path signal 150  3200 0  3119.77 -712.067  2883.1 -1388.43  2501.86 -1995.17
+            1995.17 -2501.86  1388.43 -2883.1  712.067 -3119.77  0 -3200
+            -712.067 -3119.77  -1388.43 -2883.1  -1995.17 -2501.86  -2501.86 -1995.17
+            -2883.1 -1388.43  -3119.77 -712.067  -3200 0  -3119.77 712.067
+            -2883.1 1388.43  -2501.86 1995.17  -1995.17 2501.86  -1388.43 2883.1
+            -712.067 3119.77  0 3200  712.067 3119.77  1388.43 2883.1  1995.17 2501.86
+            2501.86 1995.17  2883.1 1388.43  3119.77 712.067  3200 0))
+      (keepout "" (circle F.Cu 3200))
+      (keepout "" (circle B.Cu 3200))
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x21_P2.54mm_Vertical
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 1270  1270 -52070))
+      (outline (path signal 100  1270 -52070  -1270 -52070))
+      (outline (path signal 100  -1270 -52070  -1270 635))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 120  -1330 -52130  1330 -52130))
+      (outline (path signal 120  -1330 -1270  -1330 -52130))
+      (outline (path signal 120  1330 -1270  1330 -52130))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 50  -1800 1800  -1800 -52600))
+      (outline (path signal 50  -1800 -52600  1800 -52600))
+      (outline (path signal 50  1800 -52600  1800 1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 5 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um 6 0 -12700)
+      (pin Oval[A]Pad_1700x1700_um 7 0 -15240)
+      (pin Oval[A]Pad_1700x1700_um 8 0 -17780)
+      (pin Oval[A]Pad_1700x1700_um 9 0 -20320)
+      (pin Oval[A]Pad_1700x1700_um 10 0 -22860)
+      (pin Oval[A]Pad_1700x1700_um 11 0 -25400)
+      (pin Oval[A]Pad_1700x1700_um 12 0 -27940)
+      (pin Oval[A]Pad_1700x1700_um 13 0 -30480)
+      (pin Oval[A]Pad_1700x1700_um 14 0 -33020)
+      (pin Oval[A]Pad_1700x1700_um 15 0 -35560)
+      (pin Oval[A]Pad_1700x1700_um 16 0 -38100)
+      (pin Oval[A]Pad_1700x1700_um 17 0 -40640)
+      (pin Oval[A]Pad_1700x1700_um 18 0 -43180)
+      (pin Oval[A]Pad_1700x1700_um 19 0 -45720)
+      (pin Oval[A]Pad_1700x1700_um 20 0 -48260)
+      (pin Oval[A]Pad_1700x1700_um 21 0 -50800)
+    )
+    (padstack Oval[A]Pad_1700x1700_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack Cust[A]Pad_2400x2400_4194.22x_2400_21_um
+      (shape (polygon F.Cu 0  -3000 1200  0 1200  117.621 1194.22  348.342 1148.33  565.676 1058.31
+            761.272 927.613  927.613 761.272  1058.31 565.676  1148.33 348.342
+            1194.22 117.621  1194.22 -117.621  1148.33 -348.342  1058.31 -565.676
+            927.613 -761.272  761.272 -927.613  565.676 -1058.31  348.342 -1148.33
+            117.621 -1194.22  0 -1200  -3000 -1200  -3000 1200))
+      (shape (polygon B.Cu 0  -3000 1200  0 1200  117.621 1194.22  348.342 1148.33  565.676 1058.31
+            761.272 927.613  927.613 761.272  1058.31 565.676  1148.33 348.342
+            1194.22 117.621  1194.22 -117.621  1148.33 -348.342  1058.31 -565.676
+            927.613 -761.272  761.272 -927.613  565.676 -1058.31  348.342 -1148.33
+            117.621 -1194.22  0 -1200  -3000 -1200  -3000 1200))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700x1700_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_2000:1000_um"
+      (shape (circle F.Cu 2000))
+      (shape (circle B.Cu 2000))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(ChamberA1-Pad2)"
+      (pins ChamberA1-2)
+    )
+    (net /All.Stby
+      (pins ChamberA1-12 ChamberB1-12 ChamberC1-12 J1-17)
+    )
+    (net "Net-(ChamberA1-Pad11)"
+      (pins ChamberA1-11)
+    )
+    (net /ChamberA.ADC
+      (pins ChamberA1-10 J1-5)
+    )
+    (net VCC
+      (pins ChamberA1-9 ChamberB1-9 ChamberC1-9 J1-16)
+    )
+    (net GND
+      (pins ChamberA1-8 ChamberB1-8 ChamberC1-8 J1-20 J1-21)
+    )
+    (net +12V
+      (pins ChamberA1-7 ChamberB1-7 ChamberC1-7 J1-18 J1-19)
+    )
+    (net /ChamberA.D3
+      (pins ChamberA1-6 J1-4)
+    )
+    (net "Net-(ChamberA1-Pad5)"
+      (pins ChamberA1-5)
+    )
+    (net /ChamberA.D2
+      (pins ChamberA1-4 J1-3)
+    )
+    (net /ChamberA.D1
+      (pins ChamberA1-3 J1-2)
+    )
+    (net /ChamberA.PWM
+      (pins ChamberA1-1 J1-1)
+    )
+    (net /ChamberB.PWM
+      (pins ChamberB1-1 J1-6)
+    )
+    (net /ChamberB.D1
+      (pins ChamberB1-3 J1-7)
+    )
+    (net /ChamberB.D2
+      (pins ChamberB1-4 J1-8)
+    )
+    (net "Net-(ChamberB1-Pad5)"
+      (pins ChamberB1-5)
+    )
+    (net /ChamberB.D3
+      (pins ChamberB1-6 J1-9)
+    )
+    (net /ChamberB.ADC
+      (pins ChamberB1-10 J1-10)
+    )
+    (net "Net-(ChamberB1-Pad11)"
+      (pins ChamberB1-11)
+    )
+    (net "Net-(ChamberB1-Pad2)"
+      (pins ChamberB1-2)
+    )
+    (net "Net-(ChamberC1-Pad2)"
+      (pins ChamberC1-2)
+    )
+    (net "Net-(ChamberC1-Pad11)"
+      (pins ChamberC1-11)
+    )
+    (net /ChamberC.ADC
+      (pins ChamberC1-10 J1-15)
+    )
+    (net /ChamberC.D3
+      (pins ChamberC1-6 J1-14)
+    )
+    (net "Net-(ChamberC1-Pad5)"
+      (pins ChamberC1-5)
+    )
+    (net /ChamberC.D2
+      (pins ChamberC1-4 J1-13)
+    )
+    (net /ChamberC.D1
+      (pins ChamberC1-3 J1-12)
+    )
+    (net /ChamberC.PWM
+      (pins ChamberC1-1 J1-11)
+    )
+    (class kicad_default "" /All.Stby /ChamberA.ADC /ChamberA.D1 /ChamberA.D2
+      /ChamberA.D3 /ChamberA.PWM /ChamberB.ADC /ChamberB.D1 /ChamberB.D2 /ChamberB.D3
+      /ChamberB.PWM /ChamberC.ADC /ChamberC.D1 /ChamberC.D2 /ChamberC.D3 /ChamberC.PWM
+      "Net-(ChamberA1-Pad11)" "Net-(ChamberA1-Pad2)" "Net-(ChamberA1-Pad5)"
+      "Net-(ChamberB1-Pad11)" "Net-(ChamberB1-Pad2)" "Net-(ChamberB1-Pad5)"
+      "Net-(ChamberC1-Pad11)" "Net-(ChamberC1-Pad2)" "Net-(ChamberC1-Pad5)"
+      VCC
+      (circuit
+        (use_via Via[0-1]_2000:1000_um)
+      )
+      (rule
+        (width 310)
+        (clearance 310.1)
+      )
+    )
+    (class Power +12V GND
+      (circuit
+        (use_via Via[0-1]_2000:1000_um)
+      )
+      (rule
+        (width 1000)
+        (clearance 310.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
