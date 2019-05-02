@@ -471,17 +471,6 @@ F 3 "~" H 1700 3460 50  0001 C CNN
 	1    1650 3500
 	-1   0    0    1   
 $EndComp
-$Comp
-L Connector:Conn_01x21_Female J2
-U 1 1 5CC810CC
-P 2200 4550
-F 0 "J2" V 2365 4530 50  0000 C CNN
-F 1 "Conn_01x21_Female" V 2274 4530 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x21_P2.54mm_Vertical" H 2200 4550 50  0001 C CNN
-F 3 "~" H 2200 4550 50  0001 C CNN
-	1    2200 4550
-	0    -1   -1   0   
-$EndComp
 Text Label 1200 4750 3    50   ~ 0
 ChamberA.PWM
 Text Label 1300 4750 3    50   ~ 0
@@ -526,36 +515,14 @@ F 3 "" H 2900 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+12V #PWR0105
-U 1 1 5CC82883
+L power:GND #PWR0106
+U 1 1 5CC8290B
 P 3000 4750
-F 0 "#PWR0105" H 3000 4600 50  0001 C CNN
-F 1 "+12V" V 3000 4900 50  0000 L CNN
+F 0 "#PWR0106" H 3000 4500 50  0001 C CNN
+F 1 "GND" V 3000 4600 50  0000 R CNN
 F 2 "" H 3000 4750 50  0001 C CNN
 F 3 "" H 3000 4750 50  0001 C CNN
 	1    3000 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0106
-U 1 1 5CC8290B
-P 3100 4750
-F 0 "#PWR0106" H 3100 4500 50  0001 C CNN
-F 1 "GND" V 3100 4600 50  0000 R CNN
-F 2 "" H 3100 4750 50  0001 C CNN
-F 3 "" H 3100 4750 50  0001 C CNN
-	1    3100 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0107
-U 1 1 5CC829E5
-P 3200 4750
-F 0 "#PWR0107" H 3200 4500 50  0001 C CNN
-F 1 "GND" V 3200 4600 50  0000 R CNN
-F 2 "" H 3200 4750 50  0001 C CNN
-F 3 "" H 3200 4750 50  0001 C CNN
-	1    3200 4750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -568,17 +535,6 @@ F 2 "" H 2700 4750 50  0001 C CNN
 F 3 "" H 2700 4750 50  0001 C CNN
 	1    2700 4750
 	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x21_Female J3
-U 1 1 5CC80D90
-P 2200 5600
-F 0 "J3" V 2365 5580 50  0000 C CNN
-F 1 "Conn_01x21_Female" V 2274 5580 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x21_P2.54mm_Vertical" H 2200 5600 50  0001 C CNN
-F 3 "~" H 2200 5600 50  0001 C CNN
-	1    2200 5600
-	0    -1   -1   0   
 $EndComp
 Text Label 1200 5800 3    50   ~ 0
 ChamberD.PWM
@@ -624,36 +580,14 @@ F 3 "" H 2900 5800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+12V #PWR0110
-U 1 1 5CC80DAD
+L power:GND #PWR0111
+U 1 1 5CC80DB3
 P 3000 5800
-F 0 "#PWR0110" H 3000 5650 50  0001 C CNN
-F 1 "+12V" V 3000 5950 50  0000 L CNN
+F 0 "#PWR0111" H 3000 5550 50  0001 C CNN
+F 1 "GND" V 3000 5650 50  0000 R CNN
 F 2 "" H 3000 5800 50  0001 C CNN
 F 3 "" H 3000 5800 50  0001 C CNN
 	1    3000 5800
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0111
-U 1 1 5CC80DB3
-P 3100 5800
-F 0 "#PWR0111" H 3100 5550 50  0001 C CNN
-F 1 "GND" V 3100 5650 50  0000 R CNN
-F 2 "" H 3100 5800 50  0001 C CNN
-F 3 "" H 3100 5800 50  0001 C CNN
-	1    3100 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0112
-U 1 1 5CC80DB9
-P 3200 5800
-F 0 "#PWR0112" H 3200 5550 50  0001 C CNN
-F 1 "GND" V 3200 5650 50  0000 R CNN
-F 2 "" H 3200 5800 50  0001 C CNN
-F 3 "" H 3200 5800 50  0001 C CNN
-	1    3200 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -666,17 +600,6 @@ F 2 "" H 2700 5800 50  0001 C CNN
 F 3 "" H 2700 5800 50  0001 C CNN
 	1    2700 5800
 	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x21_Female J4
-U 1 1 5CC80DF5
-P 2150 6700
-F 0 "J4" V 2315 6680 50  0000 C CNN
-F 1 "Conn_01x21_Female" V 2224 6680 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x21_P2.54mm_Vertical" H 2150 6700 50  0001 C CNN
-F 3 "~" H 2150 6700 50  0001 C CNN
-	1    2150 6700
-	0    -1   -1   0   
 $EndComp
 Text Label 1150 6900 3    50   ~ 0
 ChamberG.PWM
@@ -722,36 +645,14 @@ F 3 "" H 2850 6900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+12V #PWR0115
-U 1 1 5CC80E12
+L power:GND #PWR0116
+U 1 1 5CC80E18
 P 2950 6900
-F 0 "#PWR0115" H 2950 6750 50  0001 C CNN
-F 1 "+12V" V 2950 7050 50  0000 L CNN
+F 0 "#PWR0116" H 2950 6650 50  0001 C CNN
+F 1 "GND" V 2950 6750 50  0000 R CNN
 F 2 "" H 2950 6900 50  0001 C CNN
 F 3 "" H 2950 6900 50  0001 C CNN
 	1    2950 6900
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0116
-U 1 1 5CC80E18
-P 3050 6900
-F 0 "#PWR0116" H 3050 6650 50  0001 C CNN
-F 1 "GND" V 3050 6750 50  0000 R CNN
-F 2 "" H 3050 6900 50  0001 C CNN
-F 3 "" H 3050 6900 50  0001 C CNN
-	1    3050 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0117
-U 1 1 5CC80E1E
-P 3150 6900
-F 0 "#PWR0117" H 3150 6650 50  0001 C CNN
-F 1 "GND" V 3150 6750 50  0000 R CNN
-F 2 "" H 3150 6900 50  0001 C CNN
-F 3 "" H 3150 6900 50  0001 C CNN
-	1    3150 6900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -764,5 +665,38 @@ F 2 "" H 2650 6900 50  0001 C CNN
 F 3 "" H 2650 6900 50  0001 C CNN
 	1    2650 6900
 	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x20_Female J2
+U 1 1 5CCAA497
+P 2100 4550
+F 0 "J2" V 2265 4480 50  0000 C CNN
+F 1 "Conn_01x20_Female" V 2174 4480 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 2100 4550 50  0001 C CNN
+F 3 "~" H 2100 4550 50  0001 C CNN
+	1    2100 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x20_Female J3
+U 1 1 5CCAA7C7
+P 2100 5600
+F 0 "J3" V 2265 5530 50  0000 C CNN
+F 1 "Conn_01x20_Female" V 2174 5530 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 2100 5600 50  0001 C CNN
+F 3 "~" H 2100 5600 50  0001 C CNN
+	1    2100 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x20_Female J4
+U 1 1 5CCAA801
+P 2050 6700
+F 0 "J4" V 2215 6630 50  0000 C CNN
+F 1 "Conn_01x20_Female" V 2124 6630 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 2050 6700 50  0001 C CNN
+F 3 "~" H 2050 6700 50  0001 C CNN
+	1    2050 6700
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

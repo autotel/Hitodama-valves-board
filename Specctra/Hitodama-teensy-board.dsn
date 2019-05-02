@@ -23,10 +23,6 @@
     (boundary
       (path pcb 0  101600 -127000  0 -127000  0 0  101600 0  101600 -127000)
     )
-    (plane GND (polygon B.Cu 0  -5880.1 44160.4  119972 44160.4  119972 -136568  113030 -143510
-            -4302.76 -143510  -9979.66 -135938  -5880.1 44160.4))
-    (keepout "" (polygon B.Cu 0  -144700 -187230  -6270 -187230  -5000 2000  -142160 4540
-            -144700 -187230))
     (via "Via[0-1]_2000:1000_um")
     (rule
       (width 310)
@@ -61,12 +57,12 @@
     (component Connector_BarrelJack:BarrelJack_Horizontal
       (place J1 13500 -105000 front 0 (PN "Jack-DC"))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x21_P2.54mm_Vertical
-      (place J2 24130 -69850 front 0 (PN Conn_01x21_Female))
-      (place J4 82550 -69850 front 0 (PN Conn_01x21_Female))
+    (component Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical
+      (place J2 24130 -69850 front 0 (PN Conn_01x20_Female))
+      (place J4 82550 -69850 front 0 (PN Conn_01x20_Female))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x21_P2.54mm_Vertical::1
-      (place J3 53340 -69850 front 0 (PN Conn_01x21_Female))
+    (component Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical::1
+      (place J3 53340 -69850 front 0 (PN Conn_01x20_Female))
     )
   )
   (library
@@ -315,21 +311,21 @@
       (pin RoundRect[A]Pad_3000x3500_752.854_um 2 -6000 0)
       (pin RoundRect[A]Pad_3500x3500_878.33_um 3 -3000 -4700)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x21_P2.54mm_Vertical
+    (image Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical
       (outline (path signal 100  -635 1270  1270 1270))
-      (outline (path signal 100  1270 1270  1270 -52070))
-      (outline (path signal 100  1270 -52070  -1270 -52070))
-      (outline (path signal 100  -1270 -52070  -1270 635))
+      (outline (path signal 100  1270 1270  1270 -49530))
+      (outline (path signal 100  1270 -49530  -1270 -49530))
+      (outline (path signal 100  -1270 -49530  -1270 635))
       (outline (path signal 100  -1270 635  -635 1270))
-      (outline (path signal 120  -1330 -52130  1330 -52130))
-      (outline (path signal 120  -1330 -1270  -1330 -52130))
-      (outline (path signal 120  1330 -1270  1330 -52130))
+      (outline (path signal 120  -1330 -49590  1330 -49590))
+      (outline (path signal 120  -1330 -1270  -1330 -49590))
+      (outline (path signal 120  1330 -1270  1330 -49590))
       (outline (path signal 120  -1330 -1270  1330 -1270))
       (outline (path signal 120  -1330 0  -1330 1330))
       (outline (path signal 120  -1330 1330  0 1330))
-      (outline (path signal 50  -1800 1800  -1800 -52600))
-      (outline (path signal 50  -1800 -52600  1800 -52600))
-      (outline (path signal 50  1800 -52600  1800 1800))
+      (outline (path signal 50  -1800 1800  -1800 -50050))
+      (outline (path signal 50  -1800 -50050  1800 -50050))
+      (outline (path signal 50  1800 -50050  1800 1800))
       (outline (path signal 50  1800 1800  -1800 1800))
       (pin Rect[A]Pad_1700x1700_um 1 0 0)
       (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
@@ -351,25 +347,23 @@
       (pin Oval[A]Pad_1700x1700_um 18 0 -43180)
       (pin Oval[A]Pad_1700x1700_um 19 0 -45720)
       (pin Oval[A]Pad_1700x1700_um 20 0 -48260)
-      (pin Oval[A]Pad_1700x1700_um 21 0 -50800)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x21_P2.54mm_Vertical::1
+    (image Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical::1
       (outline (path signal 50  1800 1800  -1800 1800))
-      (outline (path signal 50  1800 -52600  1800 1800))
-      (outline (path signal 50  -1800 -52600  1800 -52600))
-      (outline (path signal 50  -1800 1800  -1800 -52600))
+      (outline (path signal 50  1800 -50050  1800 1800))
+      (outline (path signal 50  -1800 -50050  1800 -50050))
+      (outline (path signal 50  -1800 1800  -1800 -50050))
       (outline (path signal 120  -1330 1330  0 1330))
       (outline (path signal 120  -1330 0  -1330 1330))
       (outline (path signal 120  -1330 -1270  1330 -1270))
-      (outline (path signal 120  1330 -1270  1330 -52130))
-      (outline (path signal 120  -1330 -1270  -1330 -52130))
-      (outline (path signal 120  -1330 -52130  1330 -52130))
+      (outline (path signal 120  1330 -1270  1330 -49590))
+      (outline (path signal 120  -1330 -1270  -1330 -49590))
+      (outline (path signal 120  -1330 -49590  1330 -49590))
       (outline (path signal 100  -1270 635  -635 1270))
-      (outline (path signal 100  -1270 -52070  -1270 635))
-      (outline (path signal 100  1270 -52070  -1270 -52070))
-      (outline (path signal 100  1270 1270  1270 -52070))
+      (outline (path signal 100  -1270 -49530  -1270 635))
+      (outline (path signal 100  1270 -49530  -1270 -49530))
+      (outline (path signal 100  1270 1270  1270 -49530))
       (outline (path signal 100  -635 1270  1270 1270))
-      (pin Oval[A]Pad_1700x1700_um 21 0 -50800)
       (pin Oval[A]Pad_1700x1700_um 20 0 -48260)
       (pin Oval[A]Pad_1700x1700_um 19 0 -45720)
       (pin Oval[A]Pad_1700x1700_um 18 0 -43180)
@@ -495,8 +489,7 @@
       (pins U4-2)
     )
     (net GND
-      (pins SPIO_3-2 SPIO_2-2 SPIO_0-2 SPIO_4-2 SPIO_1-2 U4-1 J1-2 J2-20 J2-21 J3-21
-        J3-20 J4-20 J4-21)
+      (pins SPIO_3-2 SPIO_2-2 SPIO_0-2 SPIO_4-2 SPIO_1-2 U4-1 J1-2 J2-19 J3-19 J4-19)
     )
     (net "Net-(U4-Pad39)"
       (pins U4-39)
@@ -724,7 +717,7 @@
       (pins SPIO_3-1 SPIO_2-1 SPIO_0-1 SPIO_4-1 SPIO_1-1 J2-16 J3-16 J4-16)
     )
     (net +12V
-      (pins J1-1 J2-18 J2-19 J3-19 J3-18 J4-18 J4-19)
+      (pins J1-1 J2-18 J3-18 J4-18)
     )
     (net /SPI0.CS4
       (pins SPIO_4-5 U4-80)
@@ -738,6 +731,15 @@
     (net /SPI0.CS1
       (pins SPIO_1-5 U4-83)
     )
+    (net "Net-(J2-Pad20)"
+      (pins J2-20)
+    )
+    (net "Net-(J3-Pad20)"
+      (pins J3-20)
+    )
+    (net "Net-(J4-Pad20)"
+      (pins J4-20)
+    )
     (class kicad_default "" +3V3 /A10 /A11 /A24 /All.Stby /ChamberA.ADC /ChamberA.D1
       /ChamberA.D2 /ChamberA.D3 /ChamberA.PWM /ChamberB.ADC /ChamberB.D1 /ChamberB.D2
       /ChamberB.D3 /ChamberB.PWM /ChamberC.ADC /ChamberC.D1 /ChamberC.D2 /ChamberC.D3
@@ -747,22 +749,13 @@
       /ChamberG.D2 /ChamberG.D3 /ChamberG.PWM /ChamberH.ADC /ChamberH.D1 /ChamberH.D2
       /ChamberH.D3 /ChamberH.PWM /ChamberI.ADC /ChamberI.D1 /ChamberI.D2 /ChamberI.D3
       /ChamberI.PWM /D56 /D57 /PanicBtn /SPI0.CS0 /SPI0.CS1 /SPI0.CS2 /SPI0.CS3
-      /SPI0.CS4 /SPI0.MISO /SPI0.MOSI /SPI0.SCK "Net-(ChamberA1-Pad11)" "Net-(ChamberA1-Pad2)"
-      "Net-(ChamberA1-Pad5)" "Net-(ChamberB1-Pad11)" "Net-(ChamberB1-Pad2)"
-      "Net-(ChamberB1-Pad5)" "Net-(ChamberC1-Pad11)" "Net-(ChamberC1-Pad2)"
-      "Net-(ChamberC1-Pad5)" "Net-(ChamberD1-Pad11)" "Net-(ChamberD1-Pad2)"
-      "Net-(ChamberD1-Pad5)" "Net-(ChamberE1-Pad11)" "Net-(ChamberE1-Pad2)"
-      "Net-(ChamberE1-Pad5)" "Net-(ChamberF1-Pad11)" "Net-(ChamberF1-Pad2)"
-      "Net-(ChamberF1-Pad5)" "Net-(ChamberG1-Pad11)" "Net-(ChamberG1-Pad2)"
-      "Net-(ChamberG1-Pad5)" "Net-(ChamberH1-Pad11)" "Net-(ChamberH1-Pad2)"
-      "Net-(ChamberH1-Pad5)" "Net-(ChamberI1-Pad11)" "Net-(ChamberI1-Pad2)"
-      "Net-(ChamberI1-Pad5)" "Net-(U4-Pad2)" "Net-(U4-Pad25)" "Net-(U4-Pad26)"
-      "Net-(U4-Pad27)" "Net-(U4-Pad28)" "Net-(U4-Pad29)" "Net-(U4-Pad3)" "Net-(U4-Pad39)"
-      "Net-(U4-Pad51)" "Net-(U4-Pad52)" "Net-(U4-Pad53)" "Net-(U4-Pad54)"
-      "Net-(U4-Pad55)" "Net-(U4-Pad58)" "Net-(U4-Pad59)" "Net-(U4-Pad60)"
-      "Net-(U4-Pad61)" "Net-(U4-Pad62)" "Net-(U4-Pad63)" "Net-(U4-Pad64)"
-      "Net-(U4-Pad65)" "Net-(U4-Pad66)" "Net-(U4-Pad74)" "Net-(U4-Pad75)"
-      VCC
+      /SPI0.CS4 /SPI0.MISO /SPI0.MOSI /SPI0.SCK "Net-(J2-Pad20)" "Net-(J3-Pad20)"
+      "Net-(J4-Pad20)" "Net-(U4-Pad2)" "Net-(U4-Pad25)" "Net-(U4-Pad26)" "Net-(U4-Pad27)"
+      "Net-(U4-Pad28)" "Net-(U4-Pad29)" "Net-(U4-Pad3)" "Net-(U4-Pad39)" "Net-(U4-Pad51)"
+      "Net-(U4-Pad52)" "Net-(U4-Pad53)" "Net-(U4-Pad54)" "Net-(U4-Pad55)"
+      "Net-(U4-Pad58)" "Net-(U4-Pad59)" "Net-(U4-Pad60)" "Net-(U4-Pad61)"
+      "Net-(U4-Pad62)" "Net-(U4-Pad63)" "Net-(U4-Pad64)" "Net-(U4-Pad65)"
+      "Net-(U4-Pad66)" "Net-(U4-Pad74)" "Net-(U4-Pad75)" VCC
       (circuit
         (use_via Via[0-1]_2000:1000_um)
       )
