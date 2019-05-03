@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:hitodama-teensy-valve-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -247,102 +248,80 @@ F 3 "" H 8000 1650 50  0001 C CNN
 	1    8000 1650
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector:Conn_01x21_Female J?
-U 1 1 5CC810CC
-P 2150 900
-F 0 "J?" V 2315 880 50  0000 C CNN
-F 1 "Conn_01x21_Female" V 2224 880 50  0000 C CNN
-F 2 "" H 2150 900 50  0001 C CNN
-F 3 "~" H 2150 900 50  0001 C CNN
-	1    2150 900 
-	0    -1   -1   0   
-$EndComp
-Text Label 1150 1100 3    50   ~ 0
+Text Label 950  1100 3    50   ~ 0
 ChamberA.PWM
-Text Label 1250 1100 3    50   ~ 0
+Text Label 1050 1100 3    50   ~ 0
 ChamberA.D1
-Text Label 1350 1100 3    50   ~ 0
+Text Label 1150 1100 3    50   ~ 0
 ChamberA.D2
-Text Label 1450 1100 3    50   ~ 0
+Text Label 1250 1100 3    50   ~ 0
 ChamberA.D3
-Text Label 1550 1100 3    50   ~ 0
+Text Label 1350 1100 3    50   ~ 0
 ChamberA.ADC
-Text Label 2750 1100 3    50   ~ 0
-All.Stby
-Text Label 1650 1100 3    50   ~ 0
-ChamberB.PWM
-Text Label 1750 1100 3    50   ~ 0
-ChamberB.D1
-Text Label 1850 1100 3    50   ~ 0
-ChamberB.D2
-Text Label 1950 1100 3    50   ~ 0
-ChamberB.D3
-Text Label 2050 1100 3    50   ~ 0
-ChamberB.ADC
-Text Label 2150 1100 3    50   ~ 0
-ChamberC.PWM
-Text Label 2250 1100 3    50   ~ 0
-ChamberC.D1
-Text Label 2350 1100 3    50   ~ 0
-ChamberC.D2
-Text Label 2450 1100 3    50   ~ 0
-ChamberC.D3
 Text Label 2550 1100 3    50   ~ 0
+All.Stby
+Text Label 1450 1100 3    50   ~ 0
+ChamberB.PWM
+Text Label 1550 1100 3    50   ~ 0
+ChamberB.D1
+Text Label 1650 1100 3    50   ~ 0
+ChamberB.D2
+Text Label 1750 1100 3    50   ~ 0
+ChamberB.D3
+Text Label 1850 1100 3    50   ~ 0
+ChamberB.ADC
+Text Label 1950 1100 3    50   ~ 0
+ChamberC.PWM
+Text Label 2050 1100 3    50   ~ 0
+ChamberC.D1
+Text Label 2150 1100 3    50   ~ 0
+ChamberC.D2
+Text Label 2250 1100 3    50   ~ 0
+ChamberC.D3
+Text Label 2350 1100 3    50   ~ 0
 ChamberC.ADC
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0101
 U 1 1 5CC82805
-P 2850 1100
-F 0 "#PWR?" H 2850 950 50  0001 C CNN
-F 1 "+12V" V 2850 1250 50  0000 L CNN
-F 2 "" H 2850 1100 50  0001 C CNN
-F 3 "" H 2850 1100 50  0001 C CNN
-	1    2850 1100
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+12V #PWR?
-U 1 1 5CC82883
-P 2950 1100
-F 0 "#PWR?" H 2950 950 50  0001 C CNN
-F 1 "+12V" V 2950 1250 50  0000 L CNN
-F 2 "" H 2950 1100 50  0001 C CNN
-F 3 "" H 2950 1100 50  0001 C CNN
-	1    2950 1100
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5CC8290B
-P 3050 1100
-F 0 "#PWR?" H 3050 850 50  0001 C CNN
-F 1 "GND" V 3050 950 50  0000 R CNN
-F 2 "" H 3050 1100 50  0001 C CNN
-F 3 "" H 3050 1100 50  0001 C CNN
-	1    3050 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5CC829E5
-P 3150 1100
-F 0 "#PWR?" H 3150 850 50  0001 C CNN
-F 1 "GND" V 3150 950 50  0000 R CNN
-F 2 "" H 3150 1100 50  0001 C CNN
-F 3 "" H 3150 1100 50  0001 C CNN
-	1    3150 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 5CC82A23
 P 2650 1100
-F 0 "#PWR?" H 2650 950 50  0001 C CNN
-F 1 "VCC" V 2650 1250 50  0000 L CNN
+F 0 "#PWR0101" H 2650 950 50  0001 C CNN
+F 1 "+12V" V 2650 1250 50  0000 L CNN
 F 2 "" H 2650 1100 50  0001 C CNN
 F 3 "" H 2650 1100 50  0001 C CNN
 	1    2650 1100
 	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5CC8290B
+P 2750 1100
+F 0 "#PWR0103" H 2750 850 50  0001 C CNN
+F 1 "GND" V 2750 950 50  0000 R CNN
+F 2 "" H 2750 1100 50  0001 C CNN
+F 3 "" H 2750 1100 50  0001 C CNN
+	1    2750 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0114
+U 1 1 5CC82A23
+P 2450 1100
+F 0 "#PWR0114" H 2450 950 50  0001 C CNN
+F 1 "VCC" V 2450 1250 50  0000 L CNN
+F 2 "" H 2450 1100 50  0001 C CNN
+F 3 "" H 2450 1100 50  0001 C CNN
+	1    2450 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x20_Female J?
+U 1 1 5CCC0BAE
+P 1850 900
+F 0 "J?" V 2015 830 50  0000 C CNN
+F 1 "Conn_01x20_Female" V 1924 830 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 1850 900 50  0001 C CNN
+F 3 "~" H 1850 900 50  0001 C CNN
+	1    1850 900 
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
