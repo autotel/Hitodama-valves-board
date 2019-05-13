@@ -319,7 +319,7 @@ U 1 1 5CCC0BAE
 P 1850 900
 F 0 "J1" V 2015 830 50  0000 C CNN
 F 1 "Conn_01x20_Female" V 1924 830 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 1850 900 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 1850 900 50  0001 C CNN
 F 3 "~" H 1850 900 50  0001 C CNN
 	1    1850 900 
 	0    -1   -1   0   

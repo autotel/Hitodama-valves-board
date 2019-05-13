@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Joaquín\repositories\Hitodama-valves-board\hitodama-teensy-valve-board.sch)
-    (date "03/05/2019 12:30:28")
+    (date "13/05/2019 14:55:24")
     (tool "Eeschema (5.0.1)-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -77,7 +77,7 @@
       (tstamp 5CBF1F02))
     (comp (ref J1)
       (value Conn_01x20_Female)
-      (footprint Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical)
+      (footprint Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector) (part Conn_01x20_Female) (description "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
