@@ -672,7 +672,7 @@ U 1 1 5CCAA497
 P 2100 4550
 F 0 "J2" V 2265 4480 50  0000 C CNN
 F 1 "Conn_01x20_Female" V 2174 4480 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 2100 4550 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 2100 4550 50  0001 C CNN
 F 3 "~" H 2100 4550 50  0001 C CNN
 	1    2100 4550
 	0    -1   -1   0   
@@ -683,7 +683,7 @@ U 1 1 5CCAA7C7
 P 2100 5600
 F 0 "J3" V 2265 5530 50  0000 C CNN
 F 1 "Conn_01x20_Female" V 2174 5530 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 2100 5600 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 2100 5600 50  0001 C CNN
 F 3 "~" H 2100 5600 50  0001 C CNN
 	1    2100 5600
 	0    -1   -1   0   
@@ -694,7 +694,7 @@ U 1 1 5CCAA801
 P 2050 6700
 F 0 "J4" V 2215 6630 50  0000 C CNN
 F 1 "Conn_01x20_Female" V 2124 6630 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 2050 6700 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 2050 6700 50  0001 C CNN
 F 3 "~" H 2050 6700 50  0001 C CNN
 	1    2050 6700
 	0    -1   -1   0   
