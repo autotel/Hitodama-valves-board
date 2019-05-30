@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Hitodama-valve-boards-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -475,7 +476,7 @@ U 1 1 5CB86D71
 P 5050 5200
 F 0 "JP1" H 5300 5100 50  0000 C CNN
 F 1 "(A,B)IN 1" H 5050 5100 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 5050 5200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5050 5200 50  0001 C CNN
 F 3 "~" H 5050 5200 50  0001 C CNN
 	1    5050 5200
 	-1   0    0    1   
@@ -643,7 +644,7 @@ U 1 1 5CBF1995
 P 5200 5750
 F 0 "JP2" H 5450 5650 50  0000 C CNN
 F 1 "(A,B)IN 1" H 5200 5650 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 5200 5750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5200 5750 50  0001 C CNN
 F 3 "~" H 5200 5750 50  0001 C CNN
 	1    5200 5750
 	-1   0    0    1   

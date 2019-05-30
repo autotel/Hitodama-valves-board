@@ -82,7 +82,7 @@ F 1 "100uF 25v" V 1864 2400 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 1738 2250 50  0001 C CNN
 F 3 "~" H 1700 2400 50  0001 C CNN
 	1    1700 2400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1850 2850 2000 2850
@@ -111,7 +111,7 @@ F 1 "100uF 25v" V 1864 2850 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 1738 2700 50  0001 C CNN
 F 3 "~" H 1700 2850 50  0001 C CNN
 	1    1700 2850
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3400 4850 3500 4850
