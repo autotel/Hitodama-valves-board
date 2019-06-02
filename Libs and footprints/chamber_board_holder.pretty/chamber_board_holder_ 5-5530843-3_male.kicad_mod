@@ -1,4 +1,4 @@
-(module chamber_board_holder (layer F.Cu) (tedit 5CF4067A)
+(module "chamber_board_holder:chamber_board_holder_ 5-5530843-3_male" (layer F.Cu) (tedit 5CF4076A)
   (fp_text reference U4 (at 7.62 20.32 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -51,112 +51,112 @@
       (gr_poly (pts
          (xy -6.35 -1) (xy 0 -1) (xy 0 1) (xy -6.35 1)) (width 0))
     ))
-  (pad 1 thru_hole custom (at 0 2.54) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
+  (pad 2 thru_hole custom (at 0 2.54) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
          (xy -6.35 -1) (xy 0 -1) (xy 0 1) (xy -6.35 1)) (width 0))
     ))
-  (pad 1 thru_hole custom (at 0 5.08) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
+  (pad 3 thru_hole custom (at 0 5.08) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
          (xy -6.35 -1) (xy 0 -1) (xy 0 1) (xy -6.35 1)) (width 0))
     ))
-  (pad 1 thru_hole custom (at 0 7.62) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
+  (pad 4 thru_hole custom (at 0 7.62) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
          (xy -6.35 -1) (xy 0 -1) (xy 0 1) (xy -6.35 1)) (width 0))
     ))
-  (pad 1 thru_hole custom (at 0 10.16) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
+  (pad 5 thru_hole custom (at 0 10.16) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
          (xy -6.35 -1) (xy 0 -1) (xy 0 1) (xy -6.35 1)) (width 0))
     ))
-  (pad 1 thru_hole custom (at 0 12.7) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
+  (pad 6 thru_hole custom (at 0 12.7) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
          (xy -6.35 -1) (xy 0 -1) (xy 0 1) (xy -6.35 1)) (width 0))
     ))
-  (pad 1 thru_hole custom (at 0 15.24) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
+  (pad 7 thru_hole custom (at 0 15.24) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
          (xy -6.35 -1) (xy 0 -1) (xy 0 1) (xy -6.35 1)) (width 0))
     ))
-  (pad 1 thru_hole custom (at 0 17.78) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
+  (pad 8 thru_hole custom (at 0 17.78) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
          (xy -6.35 -1) (xy 0 -1) (xy 0 1) (xy -6.35 1)) (width 0))
     ))
-  (pad 1 thru_hole custom (at 0 20.32) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
+  (pad 9 thru_hole custom (at 0 20.32) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
          (xy -6.35 -1) (xy 0 -1) (xy 0 1) (xy -6.35 1)) (width 0))
     ))
-  (pad 1 thru_hole custom (at 0 22.86) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
+  (pad 10 thru_hole custom (at 0 22.86) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
          (xy -6.35 -1) (xy 0 -1) (xy 0 1) (xy -6.35 1)) (width 0))
     ))
-  (pad 1 thru_hole custom (at 0 25.4) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
+  (pad 11 thru_hole custom (at 0 25.4) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
          (xy -6.35 -1) (xy 0 -1) (xy 0 1) (xy -6.35 1)) (width 0))
     ))
-  (pad 1 thru_hole custom (at 0 27.94) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
+  (pad 12 thru_hole custom (at 0 27.94) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
          (xy -6.35 -1) (xy 0 -1) (xy 0 1) (xy -6.35 1)) (width 0))
     ))
-  (pad 1 thru_hole custom (at 0 30.48) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
+  (pad 13 thru_hole custom (at 0 30.48) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
          (xy -6.35 -1) (xy 0 -1) (xy 0 1) (xy -6.35 1)) (width 0))
     ))
-  (pad 1 thru_hole custom (at 0 33.02) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
+  (pad 14 thru_hole custom (at 0 33.02) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
          (xy -6.35 -1) (xy 0 -1) (xy 0 1) (xy -6.35 1)) (width 0))
     ))
-  (pad 1 thru_hole custom (at 0 35.56) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
+  (pad 15 thru_hole custom (at 0 35.56) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
          (xy -6.35 -1) (xy 0 -1) (xy 0 1) (xy -6.35 1)) (width 0))
     ))
-  (pad 1 thru_hole custom (at 0 40.64) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
+  (pad 17 thru_hole custom (at 0 40.64) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
          (xy -6.35 -1) (xy 0 -1) (xy 0 1) (xy -6.35 1)) (width 0))
     ))
-  (pad 1 thru_hole custom (at 0 38.1) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
+  (pad 16 thru_hole custom (at 0 38.1) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives

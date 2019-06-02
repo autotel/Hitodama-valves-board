@@ -96,7 +96,7 @@ U 1 1 5CBF1B8A
 P 5000 1300
 F 0 "ChamberA1" V 5350 950 50  0000 L CNN
 F 1 "ChamberBoard_Holder" V 5450 950 50  0000 L CNN
-F 2 "chamber_board_holder:chamber_board_holder" H 5000 1300 50  0001 C CNN
+F 2 "chamber_board_holder:5-5530843-3 female" H 5000 1300 50  0001 C CNN
 F 3 "" H 5000 1300 50  0001 C CNN
 	1    5000 1300
 	1    0    0    -1  
@@ -319,7 +319,7 @@ U 1 1 5CCC0BAE
 P 1850 900
 F 0 "J1" V 2015 830 50  0000 C CNN
 F 1 "Conn_01x20_Female" V 1924 830 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 1850 900 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 1850 900 50  0001 C CNN
 F 3 "~" H 1850 900 50  0001 C CNN
 	1    1850 900 
 	0    -1   -1   0   

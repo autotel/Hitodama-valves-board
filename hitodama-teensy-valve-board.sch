@@ -96,7 +96,7 @@ U 1 1 5CBF1B8A
 P 5000 1300
 F 0 "ChamberA1" V 5350 950 50  0000 L CNN
 F 1 "ChamberBoard_Holder" V 5450 950 50  0000 L CNN
-F 2 "chamber_board_holder:chamber_board_holder" H 5000 1300 50  0001 C CNN
+F 2 "chamber_board_holder:5-5530843-3 female" H 5000 1300 50  0001 C CNN
 F 3 "" H 5000 1300 50  0001 C CNN
 	1    5000 1300
 	1    0    0    -1  
@@ -152,7 +152,7 @@ U 1 1 5CBF1E35
 P 6500 1300
 F 0 "ChamberB1" V 6850 950 50  0000 L CNN
 F 1 "ChamberBoard_Holder" V 6950 950 50  0000 L CNN
-F 2 "chamber_board_holder:chamber_board_holder" H 6500 1300 50  0001 C CNN
+F 2 "chamber_board_holder:5-5530843-3 female" H 6500 1300 50  0001 C CNN
 F 3 "" H 6500 1300 50  0001 C CNN
 	1    6500 1300
 	1    0    0    -1  
@@ -208,7 +208,7 @@ U 1 1 5CBF1F02
 P 8000 1300
 F 0 "ChamberC1" V 8350 950 50  0000 L CNN
 F 1 "ChamberBoard_Holder" V 8450 950 50  0000 L CNN
-F 2 "chamber_board_holder:chamber_board_holder" H 8000 1300 50  0001 C CNN
+F 2 "chamber_board_holder:5-5530843-3 female" H 8000 1300 50  0001 C CNN
 F 3 "" H 8000 1300 50  0001 C CNN
 	1    8000 1300
 	1    0    0    -1  

@@ -1,4 +1,6 @@
 (sym_lib_table
-  (lib (name teensy)(type Legacy)(uri "C:/Users/Joaquín/repositories/Hitodama-valves-board/Libs and footprints/teensy.lib")(options "")(descr ""))
+  (lib (name teensy)(type Legacy)(uri "${KIPRJMOD}/Libs and footprints/teensy.lib")(options "")(descr ""))
+  (lib (name Hitodamacustomparts)(type Legacy)(uri "${KIPRJMOD}/Libs and footprints/Hitodama custom parts.lib")(options "")(descr ""))
+  (lib (name chamberboard_holder)(type Legacy)(uri "${KIPRJMOD}/Libs and footprints/chamber_board_holder.pretty/chamberboard_holder.lib")(options "")(descr ""))
   (lib (name "Hitodama custom parts")(type Legacy)(uri "C:/Users/Joaquín/repositories/Hitodama-valves-board/Libs and footprints/Hitodama custom parts.lib")(options "")(descr ""))
 )

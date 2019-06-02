@@ -665,7 +665,7 @@ U 1 1 5CC01EC3
 P 7400 3450
 F 0 "U4" H 8069 3411 50  0000 L CNN
 F 1 "ChamberBoard_Holder" H 8069 3320 50  0000 L CNN
-F 2 "chamber_board_holder:chamber_board_holder" H 7400 3450 50  0001 C CNN
+F 2 "chamber_board_holder:chamber_board_holder_ 5-5530843-3_male" H 7400 3450 50  0001 C CNN
 F 3 "" H 7400 3450 50  0001 C CNN
 	1    7400 3450
 	1    0    0    -1  

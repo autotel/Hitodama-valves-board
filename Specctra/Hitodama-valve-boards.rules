@@ -1,5 +1,5 @@
 
-(rules PCB hitodama-teensy-valve-board
+(rules PCB Hitodama-valve-boards
   (snap_angle 
     fortyfive_degree
   )
@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 858)
+    (start_pass_no 1425)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -69,10 +69,9 @@
     )
   )
   (class "kicad_default"
-    "Net-(ChamberA1-Pad2)" /All.Stby "Net-(ChamberA1-Pad11)" /ChamberA.ADC VCC /ChamberA.D3 "Net-(ChamberA1-Pad5)" /ChamberA.D2
-    /ChamberA.D1 /ChamberA.PWM /ChamberB.PWM /ChamberB.D1 /ChamberB.D2 "Net-(ChamberB1-Pad5)" /ChamberB.D3 /ChamberB.ADC
-    "Net-(ChamberB1-Pad11)" "Net-(ChamberB1-Pad2)" "Net-(ChamberC1-Pad2)" "Net-(ChamberC1-Pad11)" /ChamberC.ADC /ChamberC.D3 "Net-(ChamberC1-Pad5)" /ChamberC.D2
-    /ChamberC.D1 /ChamberC.PWM "Net-(J1-Pad20)"
+    VCC "Net-(R1-Pad2)" "Net-(R2-Pad1)" "Net-(R3-Pad2)" "Net-(R3-Pad1)" "Net-(R5-Pad2)" "Net-(R6-Pad1)" "Net-(R7-Pad1)"
+    "Net-(R7-Pad2)" "Net-(U2-Pad3)" "Net-(U3-Pad3)" "Net-(U5-Pad8)" /stby /A.IN.1 /B.IN.1 /B.PWM
+    /A.PWM /B.PRESSURE /A.PRESSURE /A.IN.2 /B.IN.2
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -83,7 +82,7 @@
     )
   )
   (class Power
-    GND +12V
+    GND +12V /HVA+ "/HVA-" "/HVB-" /HVB+
     (clearance_class Power)
     (via_rule Power)
     (rule

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Joaquín\repositories\Hitodama-valves-board\Hitodama-valve-boards.sch)
-    (date "02/06/2019 19:28:43")
+    (date "02/06/2019 20:31:38")
     (tool "Eeschema (5.0.1)-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -182,7 +182,7 @@
       (tstamp 5CBF1995))
     (comp (ref U4)
       (value ChamberBoard_Holder)
-      (footprint chamber_board_holder:chamber_board_holder)
+      (footprint "chamber_board_holder:chamber_board_holder_ 5-5530843-3_male")
       (libsource (lib "Hitodama custom parts") (part ChamberBoard_Holder) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5CC01EC3)))
