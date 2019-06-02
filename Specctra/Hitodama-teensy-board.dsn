@@ -21,10 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  101600 -127000  0 -127000  0 0  101600 0  101600 -127000)
+      (path pcb 0  100000 -100000  0 -100000  0 0  100000 0  100000 -100000)
     )
-    (plane GND (polygon F.Cu 0  0 -50  0 -127050  101600 -127050  101600 -50  0 -50))
-    (plane GND (polygon B.Cu 0  0 -50  101600 -50  101600 -127050  0 -127050  0 -50))
     (via "Via[0-1]_2000:1000_um")
     (rule
       (width 310)
@@ -35,36 +33,34 @@
   )
   (placement
     (component Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical
-      (place SPIO_3 39370 -20909.3 front 180 (PN Conn_01x06_Female))
-      (place SPIO_1 67310 -20909.3 front 180 (PN Conn_01x06_Female))
+      (place SPIO_3 38100 -17688.6 front 180 (PN Conn_01x06_Female))
+      (place SPIO_1 66040 -17688.6 front 180 (PN Conn_01x06_Female))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical::1
-      (place SPIO_2 53340 -20909.3 front 180 (PN Conn_01x06_Female))
-      (place SPIO_0 81280 -20909.3 front 180 (PN Conn_01x06_Female))
-      (place SPIO_4 25400 -20909.3 front 180 (PN Conn_01x06_Female))
+      (place SPIO_2 52070 -17688.6 front 180 (PN Conn_01x06_Female))
+      (place SPIO_0 80010 -17688.6 front 180 (PN Conn_01x06_Female))
+      (place SPIO_4 24130 -17688.6 front 180 (PN Conn_01x06_Female))
     )
     (component MountingHole:MountingHole_3.2mm_M3
       (place H1 5000 -5000 front 0 (PN MountingHole))
-      (place H3 5000 -63750 front 0 (PN MountingHole))
-      (place H5 5000 -122500 front 0 (PN MountingHole))
+      (place H3 5000 -95000 front 0 (PN MountingHole))
     )
     (component MountingHole:MountingHole_3.2mm_M3::1
-      (place H2 97500 -5000 front 0 (PN MountingHole))
-      (place H4 97500 -63750 front 0 (PN MountingHole))
-      (place H6 97500 -122500 front 0 (PN MountingHole))
+      (place H2 95000 -5000 front 0 (PN MountingHole))
+      (place H4 95000 -95000 front 0 (PN MountingHole))
     )
     (component teensy:Teensy35_36
-      (place U4 71100 -45750 front 180 (PN Teensy3.6))
+      (place U4 30480 -53340 front 0 (PN Teensy3.6))
     )
     (component Connector_BarrelJack:BarrelJack_Horizontal
-      (place J1 13500 -105000 front 0 (PN "Jack-DC"))
+      (place J1 13500 -77470 front 0 (PN "Jack-DC"))
     )
     (component "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical"
-      (place J2 24480 -79200 front 0 (PN Conn_01x20_Female))
-      (place J4 82900 -79200 front 0 (PN Conn_01x20_Female))
+      (place J2 70310 -82550 front 90 (PN Conn_01x20_Female))
+      (place J4 70310 -34290 front 90 (PN Conn_01x20_Female))
     )
     (component "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical::1"
-      (place J3 53690 -79200 front 0 (PN Conn_01x20_Female))
+      (place J3 70310 -58420 front 90 (PN Conn_01x20_Female))
     )
   )
   (library
@@ -502,9 +498,6 @@
     (net "Net-(U4-Pad25)"
       (pins U4-25)
     )
-    (net "Net-(U4-Pad26)"
-      (pins U4-26)
-    )
     (net "Net-(U4-Pad27)"
       (pins U4-27)
     )
@@ -727,9 +720,6 @@
     (net /PanicBtn
       (pins U4-16)
     )
-    (net +3V3
-      (pins U4-15)
-    )
     (net /SPI0.MISO
       (pins SPIO_3-6 SPIO_2-6 SPIO_0-6 SPIO_4-6 SPIO_1-6 U4-14)
     )
@@ -746,7 +736,7 @@
       (pins U4-62)
     )
     (net VCC
-      (pins SPIO_3-1 SPIO_2-1 SPIO_0-1 SPIO_4-1 SPIO_1-1 J2-16 J3-16 J4-16)
+      (pins SPIO_3-1 SPIO_2-1 SPIO_0-1 SPIO_4-1 SPIO_1-1 U4-15 U4-26 J2-16 J3-16 J4-16)
     )
     (net +12V
       (pins J1-1 J2-18 J3-18 J4-18)
@@ -772,7 +762,7 @@
     (net "Net-(J4-Pad20)"
       (pins J4-20)
     )
-    (class kicad_default "" +3V3 /A10 /A11 /A24 /All.Stby /ChamberA.ADC /ChamberA.D1
+    (class kicad_default "" /A10 /A11 /A24 /All.Stby /ChamberA.ADC /ChamberA.D1
       /ChamberA.D2 /ChamberA.D3 /ChamberA.PWM /ChamberB.ADC /ChamberB.D1 /ChamberB.D2
       /ChamberB.D3 /ChamberB.PWM /ChamberC.ADC /ChamberC.D1 /ChamberC.D2 /ChamberC.D3
       /ChamberC.PWM /ChamberD.ADC /ChamberD.D1 /ChamberD.D2 /ChamberD.D3 /ChamberD.PWM
@@ -782,12 +772,12 @@
       /ChamberH.D3 /ChamberH.PWM /ChamberI.ADC /ChamberI.D1 /ChamberI.D2 /ChamberI.D3
       /ChamberI.PWM /D56 /D57 /PanicBtn /SPI0.CS0 /SPI0.CS1 /SPI0.CS2 /SPI0.CS3
       /SPI0.CS4 /SPI0.MISO /SPI0.MOSI /SPI0.SCK "Net-(J2-Pad20)" "Net-(J3-Pad20)"
-      "Net-(J4-Pad20)" "Net-(U4-Pad2)" "Net-(U4-Pad25)" "Net-(U4-Pad26)" "Net-(U4-Pad27)"
-      "Net-(U4-Pad28)" "Net-(U4-Pad29)" "Net-(U4-Pad3)" "Net-(U4-Pad39)" "Net-(U4-Pad51)"
-      "Net-(U4-Pad52)" "Net-(U4-Pad53)" "Net-(U4-Pad54)" "Net-(U4-Pad55)"
-      "Net-(U4-Pad58)" "Net-(U4-Pad59)" "Net-(U4-Pad60)" "Net-(U4-Pad61)"
-      "Net-(U4-Pad62)" "Net-(U4-Pad63)" "Net-(U4-Pad64)" "Net-(U4-Pad65)"
-      "Net-(U4-Pad66)" "Net-(U4-Pad74)" "Net-(U4-Pad75)" VCC
+      "Net-(J4-Pad20)" "Net-(U4-Pad2)" "Net-(U4-Pad25)" "Net-(U4-Pad27)" "Net-(U4-Pad28)"
+      "Net-(U4-Pad29)" "Net-(U4-Pad3)" "Net-(U4-Pad39)" "Net-(U4-Pad51)" "Net-(U4-Pad52)"
+      "Net-(U4-Pad53)" "Net-(U4-Pad54)" "Net-(U4-Pad55)" "Net-(U4-Pad58)"
+      "Net-(U4-Pad59)" "Net-(U4-Pad60)" "Net-(U4-Pad61)" "Net-(U4-Pad62)"
+      "Net-(U4-Pad63)" "Net-(U4-Pad64)" "Net-(U4-Pad65)" "Net-(U4-Pad66)"
+      "Net-(U4-Pad74)" "Net-(U4-Pad75)" VCC
       (circuit
         (use_via Via[0-1]_2000:1000_um)
       )
