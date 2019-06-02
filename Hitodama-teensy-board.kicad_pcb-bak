@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.0)
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.1)-4")
 
   (general
     (thickness 1.6)
@@ -34,6 +34,8 @@
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.2)
+    (segment_width 0.2)
+    (edge_width 0.15)
     (via_size 2)
     (via_drill 1)
     (via_min_size 0.4)
@@ -43,8 +45,6 @@
     (uvias_allowed no)
     (uvia_min_size 0.2)
     (uvia_min_drill 0.1)
-    (edge_width 0.15)
-    (segment_width 0.2)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.15)
@@ -281,10 +281,10 @@
 
   (module Hitodama_Logo:hitodama_vertical (layer F.Cu) (tedit 0) (tstamp 5CF41DB5)
     (at 5.08 24.13)
-    (fp_text reference G*** (at -11.43 -6.35) (layer F.SilkS) hide
+    (fp_text reference G*** (at 13.53 -9.95 90) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
-    (fp_text value LOGO (at -13.97 -10.16) (layer F.SilkS) hide
+    (fp_text value LOGO (at 11.73 -9.88 90) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy 0.912813 -6.399669) (xy 0.9089 -6.391624) (xy 0.898477 -6.373538) (xy 0.88351 -6.348789)
