@@ -2,11 +2,19 @@
 
   (general
     (thickness 1.6)
+<<<<<<< HEAD
     (drawings 4)
-    (tracks 499)
+    (tracks 495)
     (zones 0)
     (modules 15)
+    (nets 89)
+=======
+    (drawings 5)
+    (tracks 499)
+    (zones 0)
+    (modules 14)
     (nets 88)
+>>>>>>> joaquin
   )
 
   (page A4)

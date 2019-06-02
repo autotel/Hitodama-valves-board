@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Joaquín\repositories\Hitodama-valves-board\Hitodama-teensy-board.sch)
-    (date "02/06/2019 22:51:58")
+    (date "02/06/2019 22:59:47")
     (tool "Eeschema (5.0.1)-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
