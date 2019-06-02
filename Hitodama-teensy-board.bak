@@ -128,7 +128,7 @@ Text Label 9300 1600 1    50   ~ 0
 ChamberE.D2
 Text Label 9600 3600 3    50   ~ 0
 ChamberF.D2
-Text Label 9100 3600 3    50   ~ 0
+Text Label 8300 1600 1    50   ~ 0
 ChamberG.D2
 Text Label 6900 1600 1    50   ~ 0
 ChamberH.D2
@@ -150,7 +150,7 @@ Text Label 6700 1600 1    50   ~ 0
 ChamberG.D3
 Text Label 7000 1600 1    50   ~ 0
 ChamberH.D3
-Text Label 9000 3600 3    50   ~ 0
+Text Label 8400 1600 1    50   ~ 0
 ChamberA.ADC
 Text Label 8900 3600 3    50   ~ 0
 ChamberB.ADC
@@ -204,9 +204,9 @@ Text Label 5600 1600 1    50   ~ 0
 ChamberI.D3
 Text Label 6200 1600 1    50   ~ 0
 ChamberI.ADC
-Text Label 8300 1600 1    50   ~ 0
+Text Label 9100 3600 3    50   ~ 0
 A11
-Text Label 8400 1600 1    50   ~ 0
+Text Label 9000 3600 3    50   ~ 0
 A10
 Text Label 5400 1600 1    50   ~ 0
 D57
@@ -710,4 +710,17 @@ F 3 "" H 6800 3600 50  0001 C CNN
 	1    6800 3600
 	-1   0    0    1   
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CF41CA3
+P 9200 3950
+F 0 "#PWR?" H 9200 3700 50  0001 C CNN
+F 1 "GND" H 9205 3777 50  0000 C CNN
+F 2 "" H 9200 3950 50  0001 C CNN
+F 3 "" H 9200 3950 50  0001 C CNN
+	1    9200 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 3950 9200 3600
 $EndSCHEMATC
